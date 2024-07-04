@@ -60,7 +60,6 @@ Status report for run: test-onnx using mode:onnx todtype:default backend:llvm-cp
 | pytorch/models/stablelm-3b-4e1t                  | passed      | passed        | notrun       | passed         | mismatch    |
 | pytorch/models/t5-base                           | passed      | passed        | notrun       | passed         | mismatch    |
 | pytorch/models/t5-large                          | passed      | passed        | notrun       | passed         | mismatch    |
-| pytorch/models/vicuna-13b-v1.3                   | passed      | passed        | notrun       | passed         | mismatch    |
 | pytorch/models/vit-base-patch16-224              | passed      | passed        | notrun       | passed         | passed      |
 | pytorch/models/whisper-base                      | passed      | passed        | notrun       | failed         | notrun      |
 | pytorch/models/whisper-medium                    | passed      | passed        | notrun       | failed         | notrun      |

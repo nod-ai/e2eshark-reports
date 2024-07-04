@@ -26,7 +26,6 @@ Status report for run: test-turbine using mode:turbine todtype:default backend:l
 | pytorch/models/stablelm-3b-4e1t                  | failed      | notrun        | notrun       | notrun         | notrun      |
 | pytorch/models/t5-base                           | passed      | notrun        | notrun       | passed         | mismatch    |
 | pytorch/models/t5-large                          | passed      | notrun        | notrun       | passed         | mismatch    |
-| pytorch/models/vicuna-13b-v1.3                   | failed      | notrun        | notrun       | notrun         | notrun      |
 | pytorch/models/vit-base-patch16-224              | passed      | notrun        | notrun       | passed         | passed      |
 | pytorch/models/whisper-base                      | passed      | notrun        | notrun       | passed         | mismatch    |
 | pytorch/models/whisper-medium                    | passed      | notrun        | notrun       | passed         | mismatch    |
