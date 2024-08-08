@@ -2,6 +2,6 @@ Summary (time in seconds) for run: test-onnx using mode:onnx todtype:default bac
 
 | items        |   tests |   model-run |   onnx-import |   torch-mlir |   iree-compile |   inference |
 |:-------------|--------:|------------:|--------------:|-------------:|---------------:|------------:|
-| total-count  |    1    |       1     |         1     |            0 |          0     |           0 |
-| average-time |    8.32 |       3.911 |         2.737 |            0 |          1.672 |           0 |
-| median-time  |    8.32 |       3.911 |         2.737 |            0 |          1.672 |           0 |
+| total-count  | 78      |      69     |        69     |            0 |         61     |       0     |
+| average-time | 14.9061 |       3.261 |         1.127 |            0 |         10.497 |       0.02  |
+| median-time  |  9.2265 |       2.846 |         0.467 |            0 |          5.888 |       0.026 |
