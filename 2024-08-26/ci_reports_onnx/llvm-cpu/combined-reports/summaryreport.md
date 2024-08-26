@@ -2,4 +2,4 @@ The merge report for summary (time in seconds) for runs: vai-hf-cnn-fp32-shard1,
 | items        |     tests |   model-run |   onnx-import |   torch-mlir |   iree-compile |   inference |
 |--------------|-----------|-------------|---------------|--------------|----------------|-------------|
 | total-count  | 1154      |  1078       |    1077       |            0 |       659      |   467       |
-| average-time |   32.5443 |     9.43259 |       4.50795 |            0 |        20.9332 |     1.33543 |
+| average-time |   32.9958 |     9.39327 |       4.55805 |            0 |        21.5208 |     1.38348 |
