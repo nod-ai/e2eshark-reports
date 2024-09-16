@@ -1,0 +1,24 @@
+## Summary
+
+|Stage|Count|
+|--|--|
+| Total | 1 |
+| PASS | 1 |
+| Numerics | 0 |
+| results-summary | 0 |
+| postprocessing | 0 |
+| compiled_inference | 0 |
+| native_inference | 0 |
+| construct_inputs | 0 |
+| compilation | 0 |
+| preprocessing | 0 |
+| import_model | 0 |
+| setup | 0 |
+
+## Test Run Detail 
+Test was run with the following arguments:
+Namespace(device='local-task', backend='llvm-cpu', iree_compile_args=None, mode='onnx-iree', torchtolinalg=False, stages=None, skip_stages=None, load_inputs=False, groups='all', test_filter=None, testsfile='onnx_tests/models/external_lists/vai-vision-int8.txt', tolerance=None, verbose=True, rundirectory='./test-onnx', no_artifacts=False, report=True, report_file='reports/vai-vision-int8.md')
+
+| Test | Exit Status | Notes |
+|--|--|--|
+| DarkNet53_vaiq | PASS | |
