@@ -3,10 +3,11 @@
 |Stage|Count|
 |--|--|
 | Total | 486 |
-| PASS | 232 |
-| Numerics | 52 |
+| PASS | 230 |
+| Numerics | 54 |
 | results-summary | 0 |
 | postprocessing | 0 |
+| benchmark | 0 |
 | compiled_inference | 0 |
 | native_inference | 0 |
 | construct_inputs | 0 |
@@ -19,491 +20,491 @@
 Test was run with the following arguments:
 Namespace(sources=['./e2eshark-reports/ci_reports_rocm_vai-int8-p0p1-shard1_onnx_json/vai-int8-p0p1-shard1.json', './e2eshark-reports/ci_reports_rocm_vai-int8-p0p1-shard2_onnx_json/vai-int8-p0p1-shard2.json', './e2eshark-reports/ci_reports_rocm_vai-int8-p0p1-shard3_onnx_json/vai-int8-p0p1-shard3.json'], output='./e2eshark-reports/vai-int8-p0p1.json', report=True, report_file='./e2eshark-reports/vai-int8-p0p1.md')
 
-| Test | Exit Status | Notes |
-|--|--|--|
-| adv_inception_v3_vaiq | Numerics | |
-| cs3darknet_focus_l_train_vaiq | PASS | |
-| cs3darknet_focus_l_vaiq | PASS | |
-| cs3darknet_focus_m_train_vaiq | PASS | |
-| cs3darknet_focus_m_vaiq | PASS | |
-| cs3darknet_l_train_vaiq | PASS | |
-| cs3darknet_l_vaiq | PASS | |
-| cs3darknet_m_train_vaiq | PASS | |
-| cs3darknet_m_vaiq | PASS | |
-| cs3darknet_x_train_vaiq | PASS | |
-| cs3darknet_x_vaiq | PASS | |
-| cs3edgenet_x_train_vaiq | PASS | |
-| cs3edgenet_x_vaiq | PASS | |
-| cs3se_edgenet_x_train_vaiq | PASS | |
-| cs3se_edgenet_x_vaiq | compilation | |
-| cs3sedarknet_l_train_vaiq | PASS | |
-| cs3sedarknet_l_vaiq | compilation | |
-| cs3sedarknet_x_train_vaiq | PASS | |
-| cs3sedarknet_x_vaiq | compilation | |
-| cspdarknet53_vaiq | Numerics | |
-| cspresnet50_vaiq | PASS | |
-| cspresnext50_vaiq | PASS | |
-| densenet121_test_vaiq | PASS | |
-| densenet121_vaiq | PASS | |
-| densenet161_vaiq | PASS | |
-| densenet169_vaiq | PASS | |
-| densenetblur121d_test_vaiq | PASS | |
-| densenetblur121d_vaiq | PASS | |
-| dla102_vaiq | Numerics | |
-| dla102x2_vaiq | PASS | |
-| dla102x_vaiq | PASS | |
-| dla169_vaiq | Numerics | |
-| dla34_vaiq | Numerics | |
-| dla46_c_vaiq | Numerics | |
-| dla46x_c_vaiq | Numerics | |
-| dla60_res2net_vaiq | PASS | |
-| dla60_res2next_vaiq | PASS | |
-| dla60_vaiq | PASS | |
-| dla60x_c_vaiq | Numerics | |
-| dla60x_vaiq | PASS | |
-| dm_nfnet_f0.dm_in1k_train_vaiq | compilation | |
-| dm_nfnet_f0.dm_in1k_vaiq | PASS | |
-| dm_nfnet_f1.dm_in1k_train_vaiq | compilation | |
-| dm_nfnet_f1.dm_in1k_vaiq | compilation | |
-| dpn107_vaiq | PASS | |
-| dpn131_vaiq | PASS | |
-| dpn68_vaiq | compilation | |
-| dpn68b_test_vaiq | compilation | |
-| dpn68b_vaiq | compilation | |
-| dpn92_vaiq | PASS | |
-| dpn98_vaiq | Numerics | |
-| eca_nfnet_l0.ra2_in1k_train_vaiq | compilation | |
-| eca_nfnet_l0.ra2_in1k_vaiq | compilation | |
-| eca_nfnet_l1.ra2_in1k_train_vaiq | PASS | |
-| eca_nfnet_l1.ra2_in1k_vaiq | compilation | |
-| eca_nfnet_l2.ra3_in1k_train_vaiq | compilation | |
-| eca_nfnet_l2.ra3_in1k_vaiq | compilation | |
-| eca_resnet33ts.ra2_in1k_train_vaiq | PASS | |
-| eca_resnet33ts.ra2_in1k_vaiq | compilation | |
-| eca_resnext26ts.ch_in1k_train_vaiq | PASS | |
-| eca_resnext26ts.ch_in1k_vaiq | compilation | |
-| ecaresnet101d_pruned_test_vaiq | compilation | |
-| ecaresnet101d_pruned_vaiq | compilation | |
-| ecaresnet101d_test_vaiq | compilation | |
-| ecaresnet101d_vaiq | compilation | |
-| ecaresnet26t_train_vaiq | PASS | |
-| ecaresnet26t_vaiq | compilation | |
-| ecaresnet50d_pruned_test_vaiq | compilation | |
-| ecaresnet50d_pruned_vaiq | compilation | |
-| ecaresnet50d_test_vaiq | compilation | |
-| ecaresnet50d_vaiq | compilation | |
-| ecaresnet50t_train_vaiq | PASS | |
-| ecaresnet50t_vaiq | compilation | |
-| ecaresnetlight_test_vaiq | compilation | |
-| ecaresnetlight_vaiq | compilation | |
-| efficientnet_b0.ra_in1k_vaiq | compilation | |
-| efficientnet_b1.ft_in1k_train_vaiq | compilation | |
-| efficientnet_b1.ft_in1k_vaiq | Numerics | |
-| efficientnet_b2.ra_in1k_train_vaiq | Numerics | |
-| efficientnet_b2.ra_in1k_vaiq | compilation | |
-| efficientnet_b3.ra2_in1k_train_vaiq | compilation | |
-| efficientnet_b3.ra2_in1k_vaiq | compilation | |
-| efficientnet_b4.ra2_in1k_train_vaiq | compilation | |
-| efficientnet_b4.ra2_in1k_vaiq | compilation | |
-| efficientnet_el.ra_in1k_vaiq | Numerics | |
-| efficientnet_el_pruned.in1k_vaiq | Numerics | |
-| efficientnet_em.ra2_in1k_vaiq | PASS | |
-| efficientnet_es.ra_in1k_vaiq | PASS | |
-| efficientnet_es_pruned.in1k_vaiq | PASS | |
-| efficientnet_lite0.ra_in1k_vaiq | PASS | |
-| efficientnetv2_rw_m.agc_in1k_train_vaiq | compilation | |
-| efficientnetv2_rw_m.agc_in1k_vaiq | compilation | |
-| efficientnetv2_rw_s.ra2_in1k_train_vaiq | compilation | |
-| efficientnetv2_rw_s.ra2_in1k_vaiq | compilation | |
-| efficientnetv2_rw_t.ra2_in1k_train_vaiq | compilation | |
-| efficientnetv2_rw_t.ra2_in1k_vaiq | compilation | |
-| ens_adv_inception_resnet_v2_vaiq | Numerics | |
-| ese_vovnet19b_dw_test_vaiq | compilation | |
-| ese_vovnet19b_dw_vaiq | compilation | |
-| ese_vovnet39b_test_vaiq | compilation | |
-| ese_vovnet39b_vaiq | compilation | |
-| fbnetc_100.rmsp_in1k_vaiq | PASS | |
-| fbnetv3_b.ra2_in1k_train_vaiq | compilation | |
-| fbnetv3_b.ra2_in1k_vaiq | Numerics | |
-| fbnetv3_d.ra2_in1k_train_vaiq | compilation | |
-| fbnetv3_d.ra2_in1k_vaiq | Numerics | |
-| fbnetv3_g.ra2_in1k_train_vaiq | compilation | |
-| fbnetv3_g.ra2_in1k_vaiq | compilation | |
-| gc_efficientnetv2_rw_t.agc_in1k_train_vaiq | Numerics | |
-| gc_efficientnetv2_rw_t.agc_in1k_vaiq | Numerics | |
-| gcresnet33ts.ra2_in1k_train_vaiq | PASS | |
-| gcresnet33ts.ra2_in1k_vaiq | Numerics | |
-| gcresnet50t.ra2_in1k_train_vaiq | Numerics | |
-| gcresnet50t.ra2_in1k_vaiq | Numerics | |
-| gcresnext26ts.ch_in1k_train_vaiq | Numerics | |
-| gcresnext26ts.ch_in1k_vaiq | Numerics | |
-| gcresnext50ts.ch_in1k_train_vaiq | Numerics | |
-| gcresnext50ts.ch_in1k_vaiq | Numerics | |
-| gernet_l.idstcv_in1k_vaiq | PASS | |
-| gernet_m.idstcv_in1k_vaiq | PASS | |
-| gernet_s.idstcv_in1k_vaiq | PASS | |
-| ghostnet_100_vaiq | compilation | |
-| gluon_inception_v3_vaiq | Numerics | |
-| gluon_resnet101_v1b_vaiq | PASS | |
-| gluon_resnet101_v1c_vaiq | PASS | |
-| gluon_resnet101_v1d_vaiq | PASS | |
-| gluon_resnet101_v1s_vaiq | PASS | |
-| gluon_resnet152_v1b_vaiq | PASS | |
-| gluon_resnet152_v1c_vaiq | PASS | |
-| gluon_resnet152_v1d_vaiq | PASS | |
-| gluon_resnet152_v1s_vaiq | PASS | |
-| gluon_resnet18_v1b_vaiq | PASS | |
-| gluon_resnet34_v1b_vaiq | PASS | |
-| gluon_resnet50_v1b_vaiq | PASS | |
-| gluon_resnet50_v1c_vaiq | PASS | |
-| gluon_resnet50_v1d_vaiq | PASS | |
-| gluon_resnet50_v1s_vaiq | PASS | |
-| gluon_resnext101_32x4d_vaiq | PASS | |
-| gluon_resnext101_64x4d_vaiq | PASS | |
-| gluon_resnext50_32x4d_vaiq | PASS | |
-| gluon_senet154_vaiq | compilation | |
-| gluon_seresnext101_32x4d_vaiq | compilation | |
-| gluon_seresnext101_64x4d_vaiq | compilation | |
-| gluon_seresnext50_32x4d_vaiq | compilation | |
-| hardcorenas_a_vaiq | compilation | |
-| hardcorenas_b_vaiq | PASS | |
-| hardcorenas_c_vaiq | compilation | |
-| hardcorenas_d_vaiq | compilation | |
-| hardcorenas_e_vaiq | compilation | |
-| hardcorenas_f_vaiq | compilation | |
-| hrnet_w18_small_v2_vaiq | PASS | |
-| hrnet_w18_small_vaiq | PASS | |
-| hrnet_w18_vaiq | PASS | |
-| hrnet_w30_vaiq | PASS | |
-| hrnet_w32_vaiq | PASS | |
-| hrnet_w40_vaiq | PASS | |
-| hrnet_w44_vaiq | PASS | |
-| hrnet_w48_vaiq | PASS | |
-| hrnet_w64_vaiq | PASS | |
-| ig_resnext101_32x16d_vaiq | PASS | |
-| ig_resnext101_32x32d_vaiq | PASS | |
-| ig_resnext101_32x8d_vaiq | PASS | |
-| inception_resnet_v2_vaiq | Numerics | |
-| inception_v3_vaiq | Numerics | |
-| inception_v4_vaiq | Numerics | |
-| lcnet_050.ra2_in1k_vaiq | Numerics | |
-| lcnet_075.ra2_in1k_vaiq | Numerics | |
-| lcnet_100.ra2_in1k_vaiq | Numerics | |
-| legacy_senet154_vaiq | compilation | |
-| legacy_seresnet101_vaiq | compilation | |
-| legacy_seresnet152_vaiq | compilation | |
-| legacy_seresnet18_vaiq | compilation | |
-| legacy_seresnet34_vaiq | compilation | |
-| legacy_seresnet50_vaiq | compilation | |
-| legacy_seresnext101_32x4d_vaiq | compilation | |
-| legacy_seresnext26_32x4d_vaiq | compilation | |
-| legacy_seresnext50_32x4d_vaiq | compilation | |
-| mixnet_l.ft_in1k_vaiq | compilation | |
-| mixnet_m.ft_in1k_vaiq | compilation | |
-| mixnet_s.ft_in1k_vaiq | compilation | |
-| mixnet_xl.ra_in1k_vaiq | compilation | |
-| mnasnet_100.rmsp_in1k_vaiq | PASS | |
-| mnasnet_small.lamb_in1k_vaiq | compilation | |
-| mobilenetv2_050.lamb_in1k_vaiq | PASS | |
-| mobilenetv2_100.ra_in1k_vaiq | PASS | |
-| mobilenetv2_110d.ra_in1k_vaiq | PASS | |
-| mobilenetv2_120d.ra_in1k_vaiq | PASS | |
-| mobilenetv2_140.ra_in1k_vaiq | PASS | |
-| mobilenetv3_large_100.miil_in21k_ft_in1k_vaiq | compilation | |
-| mobilenetv3_large_100.ra_in1k_vaiq | compilation | |
-| mobilenetv3_rw.rmsp_in1k_vaiq | compilation | |
-| mobilenetv3_small_050.lamb_in1k_vaiq | compilation | |
-| mobilenetv3_small_075.lamb_in1k_vaiq | compilation | |
-| mobilenetv3_small_100.lamb_in1k_vaiq | compilation | |
-| nf_regnet_b1.ra2_in1k_train_vaiq | PASS | |
-| nf_regnet_b1.ra2_in1k_vaiq | compilation | |
-| nf_resnet50.ra2_in1k_train_vaiq | Numerics | |
-| nf_resnet50.ra2_in1k_vaiq | Numerics | |
-| nfnet_l0.ra2_in1k_train_vaiq | compilation | |
-| nfnet_l0.ra2_in1k_vaiq | compilation | |
-| regnetv_040.ra3_in1k_train_vaiq | compilation | |
-| regnetv_040.ra3_in1k_vaiq | compilation | |
-| regnetv_064.ra3_in1k_train_vaiq | compilation | |
-| regnetv_064.ra3_in1k_vaiq | compilation | |
-| regnetx_002.pycls_in1k_vaiq | PASS | |
-| regnetx_004.pycls_in1k_vaiq | PASS | |
-| regnetx_004_tv.tv2_in1k_vaiq | PASS | |
-| regnetx_006.pycls_in1k_vaiq | PASS | |
-| regnetx_008.pycls_in1k_vaiq | PASS | |
-| regnetx_008.tv2_in1k_vaiq | PASS | |
-| regnetx_016.pycls_in1k_vaiq | PASS | |
-| regnetx_016.tv2_in1k_vaiq | PASS | |
-| regnetx_032.pycls_in1k_vaiq | PASS | |
-| regnetx_032.tv2_in1k_vaiq | PASS | |
-| regnetx_040.pycls_in1k_vaiq | PASS | |
-| regnetx_064.pycls_in1k_vaiq | PASS | |
-| regnetx_080.pycls_in1k_vaiq | PASS | |
-| regnetx_080.tv2_in1k_vaiq | PASS | |
-| regnetx_120.pycls_in1k_vaiq | PASS | |
-| regnetx_160.pycls_in1k_vaiq | PASS | |
-| regnetx_160.tv2_in1k_vaiq | PASS | |
-| regnetx_320.pycls_in1k_vaiq | PASS | |
-| regnetx_320.tv2_in1k_vaiq | PASS | |
-| regnety_002.pycls_in1k_vaiq | compilation | |
-| regnety_004.pycls_in1k_vaiq | compilation | |
-| regnety_004.tv2_in1k_vaiq | compilation | |
-| regnety_006.pycls_in1k_vaiq | compilation | |
-| regnety_008.pycls_in1k_vaiq | compilation | |
-| regnety_008_tv.tv2_in1k_vaiq | compilation | |
-| regnety_016.pycls_in1k_vaiq | compilation | |
-| regnety_016.tv2_in1k_vaiq | compilation | |
-| regnety_032.pycls_in1k_vaiq | compilation | |
-| regnety_032.ra_in1k_train_vaiq | compilation | |
-| regnety_032.ra_in1k_vaiq | compilation | |
-| regnety_032.tv2_in1k_vaiq | compilation | |
-| regnety_040.pycls_in1k_vaiq | compilation | |
-| regnety_040.ra3_in1k_train_vaiq | compilation | |
-| regnety_040.ra3_in1k_vaiq | compilation | |
-| regnety_064.pycls_in1k_vaiq | compilation | |
-| regnety_064.ra3_in1k_train_vaiq | compilation | |
-| regnety_064.ra3_in1k_vaiq | compilation | |
-| regnety_080.pycls_in1k_vaiq | compilation | |
-| regnety_080.ra3_in1k_train_vaiq | compilation | |
-| regnety_080.ra3_in1k_vaiq | compilation | |
-| regnety_080_tv.tv2_in1k_vaiq | compilation | |
-| regnety_120.pycls_in1k_vaiq | compilation | |
-| regnety_120.sw_in12k_ft_in1k_train_vaiq | compilation | |
-| regnety_120.sw_in12k_ft_in1k_vaiq | compilation | |
-| regnety_160.lion_in12k_ft_in1k_train_vaiq | compilation | |
-| regnety_160.lion_in12k_ft_in1k_vaiq | compilation | |
-| regnety_160.pycls_in1k_vaiq | compilation | |
-| regnety_160.sw_in12k_ft_in1k_train_vaiq | compilation | |
-| regnety_160.sw_in12k_ft_in1k_vaiq | compilation | |
-| regnety_160.swag_ft_in1k_vaiq | compilation | |
-| regnety_160.swag_lc_in1k_vaiq | compilation | |
-| regnety_160.tv2_in1k_vaiq | compilation | |
-| regnety_320.pycls_in1k_vaiq | compilation | |
-| regnety_320.seer_ft_in1k_vaiq | compilation | |
-| regnety_320.swag_ft_in1k_vaiq | compilation | |
-| regnety_320.swag_lc_in1k_vaiq | compilation | |
-| regnety_320.tv2_in1k_vaiq | compilation | |
-| regnety_640.seer_ft_in1k_vaiq | compilation | |
-| regnetz_040.ra3_in1k_train_vaiq | PASS | |
-| regnetz_040.ra3_in1k_vaiq | compilation | |
-| regnetz_040_h.ra3_in1k_train_vaiq | PASS | |
-| regnetz_040_h.ra3_in1k_vaiq | compilation | |
-| regnetz_b16.ra3_in1k_train_vaiq | compilation | |
-| regnetz_b16.ra3_in1k_vaiq | compilation | |
-| regnetz_c16.ra3_in1k_train_vaiq | PASS | |
-| regnetz_c16.ra3_in1k_vaiq | compilation | |
-| regnetz_c16_evos.ch_in1k_train_vaiq | Numerics | |
-| regnetz_c16_evos.ch_in1k_vaiq | compilation | |
-| regnetz_d32.ra3_in1k_train_vaiq | PASS | |
-| regnetz_d32.ra3_in1k_vaiq | compilation | |
-| regnetz_d8.ra3_in1k_train_vaiq | PASS | |
-| regnetz_d8.ra3_in1k_vaiq | compilation | |
-| regnetz_d8_evos.ch_in1k_train_vaiq | Numerics | |
-| regnetz_d8_evos.ch_in1k_vaiq | compilation | |
-| regnetz_e8.ra3_in1k_train_vaiq | PASS | |
-| regnetz_e8.ra3_in1k_vaiq | compilation | |
-| repvgg_a2.rvgg_in1k_vaiq | PASS | |
-| repvgg_b0.rvgg_in1k_vaiq | PASS | |
-| repvgg_b1.rvgg_in1k_vaiq | PASS | |
-| repvgg_b1g4.rvgg_in1k_vaiq | PASS | |
-| repvgg_b2.rvgg_in1k_vaiq | PASS | |
-| repvgg_b2g4.rvgg_in1k_vaiq | PASS | |
-| repvgg_b3.rvgg_in1k_vaiq | PASS | |
-| repvgg_b3g4.rvgg_in1k_vaiq | PASS | |
-| res2net101_26w_4s_vaiq | PASS | |
-| res2net50_14w_8s_vaiq | PASS | |
-| res2net50_26w_4s_vaiq | PASS | |
-| res2net50_26w_6s_vaiq | PASS | |
-| res2net50_26w_8s_vaiq | PASS | |
-| res2net50_48w_2s_vaiq | PASS | |
-| res2next50_vaiq | PASS | |
-| resmlp_12_224.fb_distilled_in1k_vaiq | compilation | |
-| resmlp_12_224.fb_in1k_vaiq | compilation | |
-| resmlp_24_224.fb_distilled_in1k_vaiq | compilation | |
-| resmlp_24_224.fb_in1k_vaiq | compilation | |
-| resmlp_36_224.fb_distilled_in1k_vaiq | compilation | |
-| resmlp_36_224.fb_in1k_vaiq | compilation | |
-| resmlp_big_24_224.fb_distilled_in1k_vaiq | compilation | |
-| resnest101e_vaiq | PASS | |
-| resnest14d_vaiq | PASS | |
-| resnest26d_vaiq | PASS | |
-| resnest50d_1s4x24d_vaiq | compilation | |
-| resnest50d_4s2x40d_vaiq | Numerics | |
-| resnest50d_vaiq | PASS | |
-| resnet101_test_vaiq | PASS | |
-| resnet101_vaiq | PASS | |
-| resnet101d_train_vaiq | PASS | |
-| resnet101d_vaiq | PASS | |
-| resnet10t_train_vaiq | PASS | |
-| resnet10t_vaiq | PASS | |
-| resnet14t_train_vaiq | PASS | |
-| resnet14t_vaiq | PASS | |
-| resnet152_test_vaiq | PASS | |
-| resnet152_vaiq | PASS | |
-| resnet152d_train_vaiq | PASS | |
-| resnet152d_vaiq | PASS | |
-| resnet18_test_vaiq | PASS | |
-| resnet18_vaiq | PASS | |
-| resnet18d_test_vaiq | PASS | |
-| resnet18d_vaiq | PASS | |
-| resnet200d_train_vaiq | PASS | |
-| resnet200d_vaiq | PASS | |
-| resnet26_test_vaiq | PASS | |
-| resnet26_vaiq | PASS | |
-| resnet26d_test_vaiq | PASS | |
-| resnet26d_vaiq | PASS | |
-| resnet26t_test_vaiq | PASS | |
-| resnet26t_vaiq | PASS | |
-| resnet32ts.ra2_in1k_train_vaiq | PASS | |
-| resnet32ts.ra2_in1k_vaiq | PASS | |
-| resnet33ts.ra2_in1k_train_vaiq | PASS | |
-| resnet33ts.ra2_in1k_vaiq | PASS | |
-| resnet34_test_vaiq | PASS | |
-| resnet34_vaiq | PASS | |
-| resnet34d_test_vaiq | PASS | |
-| resnet34d_vaiq | PASS | |
-| resnet50_gn_test_vaiq | compilation | |
-| resnet50_gn_vaiq | compilation | |
-| resnet50_test_vaiq | PASS | |
-| resnet50_vaiq | PASS | |
-| resnet50d_test_vaiq | PASS | |
-| resnet50d_vaiq | PASS | |
-| resnet51q.ra2_in1k_train_vaiq | PASS | |
-| resnet51q.ra2_in1k_vaiq | PASS | |
-| resnet61q.ra2_in1k_train_vaiq | PASS | |
-| resnet61q.ra2_in1k_vaiq | PASS | |
-| resnetaa50_train_vaiq | PASS | |
-| resnetaa50_vaiq | PASS | |
-| resnetblur50_test_vaiq | PASS | |
-| resnetblur50_vaiq | PASS | |
-| resnetrs101_train_vaiq | compilation | |
-| resnetrs101_vaiq | compilation | |
-| resnetrs152_train_vaiq | PASS | |
-| resnetrs152_vaiq | compilation | |
-| resnetrs200_train_vaiq | PASS | |
-| resnetrs200_vaiq | compilation | |
-| resnetrs50_train_vaiq | compilation | |
-| resnetrs50_vaiq | compilation | |
-| resnetv2_101.a1h_in1k_train_vaiq | PASS | |
-| resnetv2_101.a1h_in1k_vaiq | PASS | |
-| resnetv2_101x1_bit.goog_in21k_ft_in1k_vaiq | Numerics | |
-| resnetv2_152x2_bit.goog_in21k_ft_in1k_vaiq | Numerics | |
-| resnetv2_152x2_bit.goog_teacher_in21k_ft_in1k_384_vaiq | Numerics | |
-| resnetv2_152x2_bit.goog_teacher_in21k_ft_in1k_vaiq | compilation | |
-| resnetv2_50.a1h_in1k_train_vaiq | PASS | |
-| resnetv2_50.a1h_in1k_vaiq | PASS | |
-| resnetv2_50d_evos.ah_in1k_train_vaiq | compilation | |
-| resnetv2_50d_evos.ah_in1k_vaiq | compilation | |
-| resnetv2_50d_gn.ah_in1k_train_vaiq | compilation | |
-| resnetv2_50d_gn.ah_in1k_vaiq | compilation | |
-| resnetv2_50x1_bit.goog_distilled_in1k_vaiq | compilation | |
-| resnetv2_50x1_bit.goog_in21k_ft_in1k_vaiq | import_model | |
-| resnetv2_50x3_bit.goog_in21k_ft_in1k_vaiq | Numerics | |
-| resnext101_32x8d_vaiq | PASS | |
-| resnext101_64x4d_train_vaiq | PASS | |
-| resnext101_64x4d_vaiq | PASS | |
-| resnext26ts.ra2_in1k_train_vaiq | PASS | |
-| resnext26ts.ra2_in1k_vaiq | PASS | |
-| resnext50_32x4d_test_vaiq | PASS | |
-| resnext50_32x4d_vaiq | PASS | |
-| resnext50d_32x4d_test_vaiq | PASS | |
-| resnext50d_32x4d_vaiq | PASS | |
-| rexnet_100.nav_in1k_vaiq | compilation | |
-| rexnet_130.nav_in1k_vaiq | compilation | |
-| rexnet_150.nav_in1k_vaiq | compilation | |
-| rexnet_200.nav_in1k_vaiq | compilation | |
-| rexnet_300.nav_in1k_vaiq | compilation | |
-| rexnetr_200.sw_in12k_ft_in1k_train_vaiq | compilation | |
-| rexnetr_200.sw_in12k_ft_in1k_vaiq | compilation | |
-| rexnetr_300.sw_in12k_ft_in1k_train_vaiq | compilation | |
-| rexnetr_300.sw_in12k_ft_in1k_vaiq | compilation | |
-| selecsls42b_vaiq | PASS | |
-| selecsls60_vaiq | PASS | |
-| selecsls60b_vaiq | PASS | |
-| semnasnet_075.rmsp_in1k_vaiq | compilation | |
-| semnasnet_100.rmsp_in1k_vaiq | compilation | |
-| sequencer2d_m_vaiq | compilation | |
-| sequencer2d_s_vaiq | compilation | |
-| seresnet152d_train_vaiq | PASS | |
-| seresnet152d_vaiq | compilation | |
-| seresnet33ts.ra2_in1k_train_vaiq | PASS | |
-| seresnet33ts.ra2_in1k_vaiq | compilation | |
-| seresnet50_test_vaiq | compilation | |
-| seresnet50_vaiq | compilation | |
-| seresnext101_32x8d_train_vaiq | compilation | |
-| seresnext101_32x8d_vaiq | compilation | |
-| seresnext101d_32x8d_train_vaiq | compilation | |
-| seresnext101d_32x8d_vaiq | compilation | |
-| seresnext26d_32x4d_test_vaiq | compilation | |
-| seresnext26d_32x4d_vaiq | compilation | |
-| seresnext26t_32x4d_test_vaiq | compilation | |
-| seresnext26t_32x4d_vaiq | compilation | |
-| seresnext26ts.ch_in1k_train_vaiq | PASS | |
-| seresnext26ts.ch_in1k_vaiq | compilation | |
-| seresnext50_32x4d_test_vaiq | compilation | |
-| seresnext50_32x4d_vaiq | compilation | |
-| seresnextaa101d_32x8d_test_vaiq | compilation | |
-| seresnextaa101d_32x8d_vaiq | compilation | |
-| skresnet18_vaiq | PASS | |
-| skresnet34_vaiq | PASS | |
-| skresnext50_32x4d_vaiq | PASS | |
-| spnasnet_100.rmsp_in1k_vaiq | PASS | |
-| ssl_resnet18_vaiq | PASS | |
-| ssl_resnet50_vaiq | PASS | |
-| ssl_resnext101_32x16d_vaiq | PASS | |
-| ssl_resnext101_32x4d_vaiq | PASS | |
-| ssl_resnext101_32x8d_vaiq | PASS | |
-| ssl_resnext50_32x4d_vaiq | PASS | |
-| swsl_resnet18_vaiq | PASS | |
-| swsl_resnet50_vaiq | PASS | |
-| swsl_resnext101_32x16d_vaiq | PASS | |
-| swsl_resnext101_32x4d_vaiq | PASS | |
-| swsl_resnext101_32x8d_vaiq | PASS | |
-| swsl_resnext50_32x4d_vaiq | PASS | |
-| tf_efficientnet_el.in1k_vaiq | Numerics | |
-| tf_efficientnet_em.in1k_vaiq | PASS | |
-| tf_efficientnet_es.in1k_vaiq | PASS | |
-| tf_efficientnet_lite0.in1k_vaiq | PASS | |
-| tf_efficientnet_lite1.in1k_vaiq | PASS | |
-| tf_efficientnet_lite2.in1k_vaiq | Numerics | |
-| tf_efficientnet_lite3.in1k_vaiq | Numerics | |
-| tf_efficientnet_lite4.in1k_vaiq | Numerics | |
-| tf_efficientnetv2_b0.in1k_train_vaiq | compilation | |
-| tf_efficientnetv2_b0.in1k_vaiq | compilation | |
-| tf_efficientnetv2_b1.in1k_train_vaiq | compilation | |
-| tf_efficientnetv2_b1.in1k_vaiq | compilation | |
-| tf_efficientnetv2_b2.in1k_train_vaiq | compilation | |
-| tf_efficientnetv2_b2.in1k_vaiq | compilation | |
-| tf_efficientnetv2_b3.in1k_train_vaiq | compilation | |
-| tf_efficientnetv2_b3.in1k_vaiq | compilation | |
-| tf_efficientnetv2_b3.in21k_ft_in1k_train_vaiq | compilation | |
-| tf_efficientnetv2_b3.in21k_ft_in1k_vaiq | compilation | |
-| tf_inception_v3_vaiq | Numerics | |
-| tf_mobilenetv3_large_minimal_100.in1k_vaiq | PASS | |
-| tf_mobilenetv3_small_075.in1k_vaiq | compilation | |
-| tf_mobilenetv3_small_100.in1k_vaiq | compilation | |
-| tf_mobilenetv3_small_minimal_100.in1k_vaiq | PASS | |
-| tinynet_a.in1k_vaiq | compilation | |
-| tinynet_d.in1k_vaiq | compilation | |
-| tv_densenet121_vaiq | PASS | |
-| tv_resnet101_vaiq | PASS | |
-| tv_resnet152_vaiq | PASS | |
-| tv_resnet34_vaiq | PASS | |
-| tv_resnet50_vaiq | PASS | |
-| tv_resnext50_32x4d_vaiq | PASS | |
-| vgg11_bn_vaiq | PASS | |
-| vgg11_vaiq | PASS | |
-| vgg13_bn_vaiq | PASS | |
-| vgg13_vaiq | PASS | |
-| vgg16_bn_vaiq | PASS | |
-| vgg16_vaiq | PASS | |
-| vgg19_bn_vaiq | PASS | |
-| vgg19_vaiq | PASS | |
-| wide_resnet101_2_vaiq | PASS | |
-| wide_resnet50_2_test_vaiq | PASS | |
-| wide_resnet50_2_vaiq | PASS | |
-| xception41_vaiq | Numerics | |
-| xception41p_vaiq | Numerics | |
-| xception65_vaiq | Numerics | |
-| xception65p_vaiq | Numerics | |
-| xception71_vaiq | Numerics | |
-| xception_vaiq | Numerics | |
+| Test | Exit Status | Mean Benchmark Time (ms) | Notes |
+|--|--|--|--|
+| adv_inception_v3_vaiq | Numerics | None | |
+| cs3darknet_focus_l_train_vaiq | PASS | None | |
+| cs3darknet_focus_l_vaiq | PASS | None | |
+| cs3darknet_focus_m_train_vaiq | PASS | None | |
+| cs3darknet_focus_m_vaiq | PASS | None | |
+| cs3darknet_l_train_vaiq | PASS | None | |
+| cs3darknet_l_vaiq | PASS | None | |
+| cs3darknet_m_train_vaiq | PASS | None | |
+| cs3darknet_m_vaiq | PASS | None | |
+| cs3darknet_x_train_vaiq | PASS | None | |
+| cs3darknet_x_vaiq | PASS | None | |
+| cs3edgenet_x_train_vaiq | PASS | None | |
+| cs3edgenet_x_vaiq | PASS | None | |
+| cs3se_edgenet_x_train_vaiq | PASS | None | |
+| cs3se_edgenet_x_vaiq | compilation | None | |
+| cs3sedarknet_l_train_vaiq | PASS | None | |
+| cs3sedarknet_l_vaiq | compilation | None | |
+| cs3sedarknet_x_train_vaiq | PASS | None | |
+| cs3sedarknet_x_vaiq | compilation | None | |
+| cspdarknet53_vaiq | Numerics | None | |
+| cspresnet50_vaiq | PASS | None | |
+| cspresnext50_vaiq | PASS | None | |
+| densenet121_test_vaiq | PASS | None | |
+| densenet121_vaiq | PASS | None | |
+| densenet161_vaiq | PASS | None | |
+| densenet169_vaiq | PASS | None | |
+| densenetblur121d_test_vaiq | PASS | None | |
+| densenetblur121d_vaiq | PASS | None | |
+| dla102_vaiq | Numerics | None | |
+| dla102x2_vaiq | PASS | None | |
+| dla102x_vaiq | PASS | None | |
+| dla169_vaiq | Numerics | None | |
+| dla34_vaiq | Numerics | None | |
+| dla46_c_vaiq | Numerics | None | |
+| dla46x_c_vaiq | Numerics | None | |
+| dla60_res2net_vaiq | Numerics | None | |
+| dla60_res2next_vaiq | PASS | None | |
+| dla60_vaiq | PASS | None | |
+| dla60x_c_vaiq | Numerics | None | |
+| dla60x_vaiq | Numerics | None | |
+| dm_nfnet_f0.dm_in1k_train_vaiq | compilation | None | |
+| dm_nfnet_f0.dm_in1k_vaiq | PASS | None | |
+| dm_nfnet_f1.dm_in1k_train_vaiq | compilation | None | |
+| dm_nfnet_f1.dm_in1k_vaiq | compilation | None | |
+| dpn107_vaiq | PASS | None | |
+| dpn131_vaiq | PASS | None | |
+| dpn68_vaiq | compilation | None | |
+| dpn68b_test_vaiq | compilation | None | |
+| dpn68b_vaiq | compilation | None | |
+| dpn92_vaiq | PASS | None | |
+| dpn98_vaiq | Numerics | None | |
+| eca_nfnet_l0.ra2_in1k_train_vaiq | compilation | None | |
+| eca_nfnet_l0.ra2_in1k_vaiq | compilation | None | |
+| eca_nfnet_l1.ra2_in1k_train_vaiq | PASS | None | |
+| eca_nfnet_l1.ra2_in1k_vaiq | compilation | None | |
+| eca_nfnet_l2.ra3_in1k_train_vaiq | compilation | None | |
+| eca_nfnet_l2.ra3_in1k_vaiq | compilation | None | |
+| eca_resnet33ts.ra2_in1k_train_vaiq | PASS | None | |
+| eca_resnet33ts.ra2_in1k_vaiq | compilation | None | |
+| eca_resnext26ts.ch_in1k_train_vaiq | PASS | None | |
+| eca_resnext26ts.ch_in1k_vaiq | compilation | None | |
+| ecaresnet101d_pruned_test_vaiq | compilation | None | |
+| ecaresnet101d_pruned_vaiq | compilation | None | |
+| ecaresnet101d_test_vaiq | compilation | None | |
+| ecaresnet101d_vaiq | compilation | None | |
+| ecaresnet26t_train_vaiq | PASS | None | |
+| ecaresnet26t_vaiq | compilation | None | |
+| ecaresnet50d_pruned_test_vaiq | compilation | None | |
+| ecaresnet50d_pruned_vaiq | compilation | None | |
+| ecaresnet50d_test_vaiq | compilation | None | |
+| ecaresnet50d_vaiq | compilation | None | |
+| ecaresnet50t_train_vaiq | PASS | None | |
+| ecaresnet50t_vaiq | compilation | None | |
+| ecaresnetlight_test_vaiq | compilation | None | |
+| ecaresnetlight_vaiq | compilation | None | |
+| efficientnet_b0.ra_in1k_vaiq | compilation | None | |
+| efficientnet_b1.ft_in1k_train_vaiq | compilation | None | |
+| efficientnet_b1.ft_in1k_vaiq | Numerics | None | |
+| efficientnet_b2.ra_in1k_train_vaiq | Numerics | None | |
+| efficientnet_b2.ra_in1k_vaiq | compilation | None | |
+| efficientnet_b3.ra2_in1k_train_vaiq | compilation | None | |
+| efficientnet_b3.ra2_in1k_vaiq | compilation | None | |
+| efficientnet_b4.ra2_in1k_train_vaiq | compilation | None | |
+| efficientnet_b4.ra2_in1k_vaiq | compilation | None | |
+| efficientnet_el.ra_in1k_vaiq | Numerics | None | |
+| efficientnet_el_pruned.in1k_vaiq | Numerics | None | |
+| efficientnet_em.ra2_in1k_vaiq | PASS | None | |
+| efficientnet_es.ra_in1k_vaiq | PASS | None | |
+| efficientnet_es_pruned.in1k_vaiq | PASS | None | |
+| efficientnet_lite0.ra_in1k_vaiq | PASS | None | |
+| efficientnetv2_rw_m.agc_in1k_train_vaiq | compilation | None | |
+| efficientnetv2_rw_m.agc_in1k_vaiq | compilation | None | |
+| efficientnetv2_rw_s.ra2_in1k_train_vaiq | compilation | None | |
+| efficientnetv2_rw_s.ra2_in1k_vaiq | compilation | None | |
+| efficientnetv2_rw_t.ra2_in1k_train_vaiq | compilation | None | |
+| efficientnetv2_rw_t.ra2_in1k_vaiq | compilation | None | |
+| ens_adv_inception_resnet_v2_vaiq | Numerics | None | |
+| ese_vovnet19b_dw_test_vaiq | compilation | None | |
+| ese_vovnet19b_dw_vaiq | compilation | None | |
+| ese_vovnet39b_test_vaiq | compilation | None | |
+| ese_vovnet39b_vaiq | compilation | None | |
+| fbnetc_100.rmsp_in1k_vaiq | PASS | None | |
+| fbnetv3_b.ra2_in1k_train_vaiq | compilation | None | |
+| fbnetv3_b.ra2_in1k_vaiq | Numerics | None | |
+| fbnetv3_d.ra2_in1k_train_vaiq | compilation | None | |
+| fbnetv3_d.ra2_in1k_vaiq | Numerics | None | |
+| fbnetv3_g.ra2_in1k_train_vaiq | compilation | None | |
+| fbnetv3_g.ra2_in1k_vaiq | compilation | None | |
+| gc_efficientnetv2_rw_t.agc_in1k_train_vaiq | Numerics | None | |
+| gc_efficientnetv2_rw_t.agc_in1k_vaiq | Numerics | None | |
+| gcresnet33ts.ra2_in1k_train_vaiq | PASS | None | |
+| gcresnet33ts.ra2_in1k_vaiq | Numerics | None | |
+| gcresnet50t.ra2_in1k_train_vaiq | Numerics | None | |
+| gcresnet50t.ra2_in1k_vaiq | Numerics | None | |
+| gcresnext26ts.ch_in1k_train_vaiq | Numerics | None | |
+| gcresnext26ts.ch_in1k_vaiq | Numerics | None | |
+| gcresnext50ts.ch_in1k_train_vaiq | Numerics | None | |
+| gcresnext50ts.ch_in1k_vaiq | Numerics | None | |
+| gernet_l.idstcv_in1k_vaiq | PASS | None | |
+| gernet_m.idstcv_in1k_vaiq | PASS | None | |
+| gernet_s.idstcv_in1k_vaiq | PASS | None | |
+| ghostnet_100_vaiq | compilation | None | |
+| gluon_inception_v3_vaiq | Numerics | None | |
+| gluon_resnet101_v1b_vaiq | PASS | None | |
+| gluon_resnet101_v1c_vaiq | PASS | None | |
+| gluon_resnet101_v1d_vaiq | PASS | None | |
+| gluon_resnet101_v1s_vaiq | PASS | None | |
+| gluon_resnet152_v1b_vaiq | PASS | None | |
+| gluon_resnet152_v1c_vaiq | PASS | None | |
+| gluon_resnet152_v1d_vaiq | PASS | None | |
+| gluon_resnet152_v1s_vaiq | PASS | None | |
+| gluon_resnet18_v1b_vaiq | PASS | None | |
+| gluon_resnet34_v1b_vaiq | PASS | None | |
+| gluon_resnet50_v1b_vaiq | PASS | None | |
+| gluon_resnet50_v1c_vaiq | PASS | None | |
+| gluon_resnet50_v1d_vaiq | PASS | None | |
+| gluon_resnet50_v1s_vaiq | PASS | None | |
+| gluon_resnext101_32x4d_vaiq | PASS | None | |
+| gluon_resnext101_64x4d_vaiq | PASS | None | |
+| gluon_resnext50_32x4d_vaiq | PASS | None | |
+| gluon_senet154_vaiq | compilation | None | |
+| gluon_seresnext101_32x4d_vaiq | compilation | None | |
+| gluon_seresnext101_64x4d_vaiq | compilation | None | |
+| gluon_seresnext50_32x4d_vaiq | compilation | None | |
+| hardcorenas_a_vaiq | compilation | None | |
+| hardcorenas_b_vaiq | PASS | None | |
+| hardcorenas_c_vaiq | compilation | None | |
+| hardcorenas_d_vaiq | compilation | None | |
+| hardcorenas_e_vaiq | compilation | None | |
+| hardcorenas_f_vaiq | compilation | None | |
+| hrnet_w18_small_v2_vaiq | PASS | None | |
+| hrnet_w18_small_vaiq | PASS | None | |
+| hrnet_w18_vaiq | PASS | None | |
+| hrnet_w30_vaiq | PASS | None | |
+| hrnet_w32_vaiq | PASS | None | |
+| hrnet_w40_vaiq | PASS | None | |
+| hrnet_w44_vaiq | PASS | None | |
+| hrnet_w48_vaiq | PASS | None | |
+| hrnet_w64_vaiq | PASS | None | |
+| ig_resnext101_32x16d_vaiq | PASS | None | |
+| ig_resnext101_32x32d_vaiq | PASS | None | |
+| ig_resnext101_32x8d_vaiq | PASS | None | |
+| inception_resnet_v2_vaiq | Numerics | None | |
+| inception_v3_vaiq | Numerics | None | |
+| inception_v4_vaiq | Numerics | None | |
+| lcnet_050.ra2_in1k_vaiq | Numerics | None | |
+| lcnet_075.ra2_in1k_vaiq | Numerics | None | |
+| lcnet_100.ra2_in1k_vaiq | Numerics | None | |
+| legacy_senet154_vaiq | compilation | None | |
+| legacy_seresnet101_vaiq | compilation | None | |
+| legacy_seresnet152_vaiq | compilation | None | |
+| legacy_seresnet18_vaiq | compilation | None | |
+| legacy_seresnet34_vaiq | compilation | None | |
+| legacy_seresnet50_vaiq | compilation | None | |
+| legacy_seresnext101_32x4d_vaiq | compilation | None | |
+| legacy_seresnext26_32x4d_vaiq | compilation | None | |
+| legacy_seresnext50_32x4d_vaiq | compilation | None | |
+| mixnet_l.ft_in1k_vaiq | compilation | None | |
+| mixnet_m.ft_in1k_vaiq | compilation | None | |
+| mixnet_s.ft_in1k_vaiq | compilation | None | |
+| mixnet_xl.ra_in1k_vaiq | compilation | None | |
+| mnasnet_100.rmsp_in1k_vaiq | PASS | None | |
+| mnasnet_small.lamb_in1k_vaiq | compilation | None | |
+| mobilenetv2_050.lamb_in1k_vaiq | PASS | None | |
+| mobilenetv2_100.ra_in1k_vaiq | PASS | None | |
+| mobilenetv2_110d.ra_in1k_vaiq | PASS | None | |
+| mobilenetv2_120d.ra_in1k_vaiq | PASS | None | |
+| mobilenetv2_140.ra_in1k_vaiq | PASS | None | |
+| mobilenetv3_large_100.miil_in21k_ft_in1k_vaiq | compilation | None | |
+| mobilenetv3_large_100.ra_in1k_vaiq | compilation | None | |
+| mobilenetv3_rw.rmsp_in1k_vaiq | compilation | None | |
+| mobilenetv3_small_050.lamb_in1k_vaiq | compilation | None | |
+| mobilenetv3_small_075.lamb_in1k_vaiq | compilation | None | |
+| mobilenetv3_small_100.lamb_in1k_vaiq | compilation | None | |
+| nf_regnet_b1.ra2_in1k_train_vaiq | PASS | None | |
+| nf_regnet_b1.ra2_in1k_vaiq | compilation | None | |
+| nf_resnet50.ra2_in1k_train_vaiq | Numerics | None | |
+| nf_resnet50.ra2_in1k_vaiq | Numerics | None | |
+| nfnet_l0.ra2_in1k_train_vaiq | compilation | None | |
+| nfnet_l0.ra2_in1k_vaiq | compilation | None | |
+| regnetv_040.ra3_in1k_train_vaiq | compilation | None | |
+| regnetv_040.ra3_in1k_vaiq | compilation | None | |
+| regnetv_064.ra3_in1k_train_vaiq | compilation | None | |
+| regnetv_064.ra3_in1k_vaiq | compilation | None | |
+| regnetx_002.pycls_in1k_vaiq | PASS | None | |
+| regnetx_004.pycls_in1k_vaiq | PASS | None | |
+| regnetx_004_tv.tv2_in1k_vaiq | PASS | None | |
+| regnetx_006.pycls_in1k_vaiq | PASS | None | |
+| regnetx_008.pycls_in1k_vaiq | PASS | None | |
+| regnetx_008.tv2_in1k_vaiq | PASS | None | |
+| regnetx_016.pycls_in1k_vaiq | PASS | None | |
+| regnetx_016.tv2_in1k_vaiq | PASS | None | |
+| regnetx_032.pycls_in1k_vaiq | PASS | None | |
+| regnetx_032.tv2_in1k_vaiq | PASS | None | |
+| regnetx_040.pycls_in1k_vaiq | PASS | None | |
+| regnetx_064.pycls_in1k_vaiq | PASS | None | |
+| regnetx_080.pycls_in1k_vaiq | PASS | None | |
+| regnetx_080.tv2_in1k_vaiq | PASS | None | |
+| regnetx_120.pycls_in1k_vaiq | PASS | None | |
+| regnetx_160.pycls_in1k_vaiq | PASS | None | |
+| regnetx_160.tv2_in1k_vaiq | PASS | None | |
+| regnetx_320.pycls_in1k_vaiq | PASS | None | |
+| regnetx_320.tv2_in1k_vaiq | PASS | None | |
+| regnety_002.pycls_in1k_vaiq | compilation | None | |
+| regnety_004.pycls_in1k_vaiq | compilation | None | |
+| regnety_004.tv2_in1k_vaiq | compilation | None | |
+| regnety_006.pycls_in1k_vaiq | compilation | None | |
+| regnety_008.pycls_in1k_vaiq | compilation | None | |
+| regnety_008_tv.tv2_in1k_vaiq | compilation | None | |
+| regnety_016.pycls_in1k_vaiq | compilation | None | |
+| regnety_016.tv2_in1k_vaiq | compilation | None | |
+| regnety_032.pycls_in1k_vaiq | compilation | None | |
+| regnety_032.ra_in1k_train_vaiq | compilation | None | |
+| regnety_032.ra_in1k_vaiq | compilation | None | |
+| regnety_032.tv2_in1k_vaiq | compilation | None | |
+| regnety_040.pycls_in1k_vaiq | compilation | None | |
+| regnety_040.ra3_in1k_train_vaiq | compilation | None | |
+| regnety_040.ra3_in1k_vaiq | compilation | None | |
+| regnety_064.pycls_in1k_vaiq | compilation | None | |
+| regnety_064.ra3_in1k_train_vaiq | compilation | None | |
+| regnety_064.ra3_in1k_vaiq | compilation | None | |
+| regnety_080.pycls_in1k_vaiq | compilation | None | |
+| regnety_080.ra3_in1k_train_vaiq | compilation | None | |
+| regnety_080.ra3_in1k_vaiq | compilation | None | |
+| regnety_080_tv.tv2_in1k_vaiq | compilation | None | |
+| regnety_120.pycls_in1k_vaiq | compilation | None | |
+| regnety_120.sw_in12k_ft_in1k_train_vaiq | compilation | None | |
+| regnety_120.sw_in12k_ft_in1k_vaiq | compilation | None | |
+| regnety_160.lion_in12k_ft_in1k_train_vaiq | compilation | None | |
+| regnety_160.lion_in12k_ft_in1k_vaiq | compilation | None | |
+| regnety_160.pycls_in1k_vaiq | compilation | None | |
+| regnety_160.sw_in12k_ft_in1k_train_vaiq | compilation | None | |
+| regnety_160.sw_in12k_ft_in1k_vaiq | compilation | None | |
+| regnety_160.swag_ft_in1k_vaiq | compilation | None | |
+| regnety_160.swag_lc_in1k_vaiq | compilation | None | |
+| regnety_160.tv2_in1k_vaiq | compilation | None | |
+| regnety_320.pycls_in1k_vaiq | compilation | None | |
+| regnety_320.seer_ft_in1k_vaiq | compilation | None | |
+| regnety_320.swag_ft_in1k_vaiq | compilation | None | |
+| regnety_320.swag_lc_in1k_vaiq | compilation | None | |
+| regnety_320.tv2_in1k_vaiq | compilation | None | |
+| regnety_640.seer_ft_in1k_vaiq | compilation | None | |
+| regnetz_040.ra3_in1k_train_vaiq | PASS | None | |
+| regnetz_040.ra3_in1k_vaiq | compilation | None | |
+| regnetz_040_h.ra3_in1k_train_vaiq | PASS | None | |
+| regnetz_040_h.ra3_in1k_vaiq | compilation | None | |
+| regnetz_b16.ra3_in1k_train_vaiq | compilation | None | |
+| regnetz_b16.ra3_in1k_vaiq | compilation | None | |
+| regnetz_c16.ra3_in1k_train_vaiq | PASS | None | |
+| regnetz_c16.ra3_in1k_vaiq | compilation | None | |
+| regnetz_c16_evos.ch_in1k_train_vaiq | Numerics | None | |
+| regnetz_c16_evos.ch_in1k_vaiq | compilation | None | |
+| regnetz_d32.ra3_in1k_train_vaiq | PASS | None | |
+| regnetz_d32.ra3_in1k_vaiq | compilation | None | |
+| regnetz_d8.ra3_in1k_train_vaiq | PASS | None | |
+| regnetz_d8.ra3_in1k_vaiq | compilation | None | |
+| regnetz_d8_evos.ch_in1k_train_vaiq | Numerics | None | |
+| regnetz_d8_evos.ch_in1k_vaiq | compilation | None | |
+| regnetz_e8.ra3_in1k_train_vaiq | PASS | None | |
+| regnetz_e8.ra3_in1k_vaiq | compilation | None | |
+| repvgg_a2.rvgg_in1k_vaiq | PASS | None | |
+| repvgg_b0.rvgg_in1k_vaiq | PASS | None | |
+| repvgg_b1.rvgg_in1k_vaiq | PASS | None | |
+| repvgg_b1g4.rvgg_in1k_vaiq | PASS | None | |
+| repvgg_b2.rvgg_in1k_vaiq | PASS | None | |
+| repvgg_b2g4.rvgg_in1k_vaiq | PASS | None | |
+| repvgg_b3.rvgg_in1k_vaiq | PASS | None | |
+| repvgg_b3g4.rvgg_in1k_vaiq | PASS | None | |
+| res2net101_26w_4s_vaiq | PASS | None | |
+| res2net50_14w_8s_vaiq | PASS | None | |
+| res2net50_26w_4s_vaiq | PASS | None | |
+| res2net50_26w_6s_vaiq | PASS | None | |
+| res2net50_26w_8s_vaiq | PASS | None | |
+| res2net50_48w_2s_vaiq | PASS | None | |
+| res2next50_vaiq | PASS | None | |
+| resmlp_12_224.fb_distilled_in1k_vaiq | compilation | None | |
+| resmlp_12_224.fb_in1k_vaiq | compilation | None | |
+| resmlp_24_224.fb_distilled_in1k_vaiq | compilation | None | |
+| resmlp_24_224.fb_in1k_vaiq | compilation | None | |
+| resmlp_36_224.fb_distilled_in1k_vaiq | compilation | None | |
+| resmlp_36_224.fb_in1k_vaiq | compilation | None | |
+| resmlp_big_24_224.fb_distilled_in1k_vaiq | compilation | None | |
+| resnest101e_vaiq | PASS | None | |
+| resnest14d_vaiq | PASS | None | |
+| resnest26d_vaiq | PASS | None | |
+| resnest50d_1s4x24d_vaiq | compilation | None | |
+| resnest50d_4s2x40d_vaiq | Numerics | None | |
+| resnest50d_vaiq | PASS | None | |
+| resnet101_test_vaiq | PASS | None | |
+| resnet101_vaiq | PASS | None | |
+| resnet101d_train_vaiq | PASS | None | |
+| resnet101d_vaiq | PASS | None | |
+| resnet10t_train_vaiq | PASS | None | |
+| resnet10t_vaiq | PASS | None | |
+| resnet14t_train_vaiq | PASS | None | |
+| resnet14t_vaiq | PASS | None | |
+| resnet152_test_vaiq | PASS | None | |
+| resnet152_vaiq | PASS | None | |
+| resnet152d_train_vaiq | PASS | None | |
+| resnet152d_vaiq | PASS | None | |
+| resnet18_test_vaiq | PASS | None | |
+| resnet18_vaiq | PASS | None | |
+| resnet18d_test_vaiq | PASS | None | |
+| resnet18d_vaiq | PASS | None | |
+| resnet200d_train_vaiq | PASS | None | |
+| resnet200d_vaiq | PASS | None | |
+| resnet26_test_vaiq | PASS | None | |
+| resnet26_vaiq | PASS | None | |
+| resnet26d_test_vaiq | PASS | None | |
+| resnet26d_vaiq | PASS | None | |
+| resnet26t_test_vaiq | PASS | None | |
+| resnet26t_vaiq | PASS | None | |
+| resnet32ts.ra2_in1k_train_vaiq | PASS | None | |
+| resnet32ts.ra2_in1k_vaiq | PASS | None | |
+| resnet33ts.ra2_in1k_train_vaiq | PASS | None | |
+| resnet33ts.ra2_in1k_vaiq | PASS | None | |
+| resnet34_test_vaiq | PASS | None | |
+| resnet34_vaiq | PASS | None | |
+| resnet34d_test_vaiq | PASS | None | |
+| resnet34d_vaiq | PASS | None | |
+| resnet50_gn_test_vaiq | compilation | None | |
+| resnet50_gn_vaiq | compilation | None | |
+| resnet50_test_vaiq | PASS | None | |
+| resnet50_vaiq | PASS | None | |
+| resnet50d_test_vaiq | PASS | None | |
+| resnet50d_vaiq | PASS | None | |
+| resnet51q.ra2_in1k_train_vaiq | PASS | None | |
+| resnet51q.ra2_in1k_vaiq | PASS | None | |
+| resnet61q.ra2_in1k_train_vaiq | PASS | None | |
+| resnet61q.ra2_in1k_vaiq | PASS | None | |
+| resnetaa50_train_vaiq | PASS | None | |
+| resnetaa50_vaiq | PASS | None | |
+| resnetblur50_test_vaiq | PASS | None | |
+| resnetblur50_vaiq | PASS | None | |
+| resnetrs101_train_vaiq | compilation | None | |
+| resnetrs101_vaiq | compilation | None | |
+| resnetrs152_train_vaiq | PASS | None | |
+| resnetrs152_vaiq | compilation | None | |
+| resnetrs200_train_vaiq | PASS | None | |
+| resnetrs200_vaiq | compilation | None | |
+| resnetrs50_train_vaiq | compilation | None | |
+| resnetrs50_vaiq | compilation | None | |
+| resnetv2_101.a1h_in1k_train_vaiq | PASS | None | |
+| resnetv2_101.a1h_in1k_vaiq | PASS | None | |
+| resnetv2_101x1_bit.goog_in21k_ft_in1k_vaiq | Numerics | None | |
+| resnetv2_152x2_bit.goog_in21k_ft_in1k_vaiq | Numerics | None | |
+| resnetv2_152x2_bit.goog_teacher_in21k_ft_in1k_384_vaiq | Numerics | None | |
+| resnetv2_152x2_bit.goog_teacher_in21k_ft_in1k_vaiq | compilation | None | |
+| resnetv2_50.a1h_in1k_train_vaiq | PASS | None | |
+| resnetv2_50.a1h_in1k_vaiq | PASS | None | |
+| resnetv2_50d_evos.ah_in1k_train_vaiq | compilation | None | |
+| resnetv2_50d_evos.ah_in1k_vaiq | compilation | None | |
+| resnetv2_50d_gn.ah_in1k_train_vaiq | compilation | None | |
+| resnetv2_50d_gn.ah_in1k_vaiq | compilation | None | |
+| resnetv2_50x1_bit.goog_distilled_in1k_vaiq | compilation | None | |
+| resnetv2_50x1_bit.goog_in21k_ft_in1k_vaiq | import_model | None | |
+| resnetv2_50x3_bit.goog_in21k_ft_in1k_vaiq | Numerics | None | |
+| resnext101_32x8d_vaiq | PASS | None | |
+| resnext101_64x4d_train_vaiq | PASS | None | |
+| resnext101_64x4d_vaiq | PASS | None | |
+| resnext26ts.ra2_in1k_train_vaiq | PASS | None | |
+| resnext26ts.ra2_in1k_vaiq | PASS | None | |
+| resnext50_32x4d_test_vaiq | PASS | None | |
+| resnext50_32x4d_vaiq | PASS | None | |
+| resnext50d_32x4d_test_vaiq | PASS | None | |
+| resnext50d_32x4d_vaiq | PASS | None | |
+| rexnet_100.nav_in1k_vaiq | compilation | None | |
+| rexnet_130.nav_in1k_vaiq | compilation | None | |
+| rexnet_150.nav_in1k_vaiq | compilation | None | |
+| rexnet_200.nav_in1k_vaiq | compilation | None | |
+| rexnet_300.nav_in1k_vaiq | compilation | None | |
+| rexnetr_200.sw_in12k_ft_in1k_train_vaiq | compilation | None | |
+| rexnetr_200.sw_in12k_ft_in1k_vaiq | compilation | None | |
+| rexnetr_300.sw_in12k_ft_in1k_train_vaiq | compilation | None | |
+| rexnetr_300.sw_in12k_ft_in1k_vaiq | compilation | None | |
+| selecsls42b_vaiq | PASS | None | |
+| selecsls60_vaiq | PASS | None | |
+| selecsls60b_vaiq | PASS | None | |
+| semnasnet_075.rmsp_in1k_vaiq | compilation | None | |
+| semnasnet_100.rmsp_in1k_vaiq | compilation | None | |
+| sequencer2d_m_vaiq | compilation | None | |
+| sequencer2d_s_vaiq | compilation | None | |
+| seresnet152d_train_vaiq | PASS | None | |
+| seresnet152d_vaiq | compilation | None | |
+| seresnet33ts.ra2_in1k_train_vaiq | PASS | None | |
+| seresnet33ts.ra2_in1k_vaiq | compilation | None | |
+| seresnet50_test_vaiq | compilation | None | |
+| seresnet50_vaiq | compilation | None | |
+| seresnext101_32x8d_train_vaiq | compilation | None | |
+| seresnext101_32x8d_vaiq | compilation | None | |
+| seresnext101d_32x8d_train_vaiq | compilation | None | |
+| seresnext101d_32x8d_vaiq | compilation | None | |
+| seresnext26d_32x4d_test_vaiq | compilation | None | |
+| seresnext26d_32x4d_vaiq | compilation | None | |
+| seresnext26t_32x4d_test_vaiq | compilation | None | |
+| seresnext26t_32x4d_vaiq | compilation | None | |
+| seresnext26ts.ch_in1k_train_vaiq | PASS | None | |
+| seresnext26ts.ch_in1k_vaiq | compilation | None | |
+| seresnext50_32x4d_test_vaiq | compilation | None | |
+| seresnext50_32x4d_vaiq | compilation | None | |
+| seresnextaa101d_32x8d_test_vaiq | compilation | None | |
+| seresnextaa101d_32x8d_vaiq | compilation | None | |
+| skresnet18_vaiq | PASS | None | |
+| skresnet34_vaiq | PASS | None | |
+| skresnext50_32x4d_vaiq | PASS | None | |
+| spnasnet_100.rmsp_in1k_vaiq | PASS | None | |
+| ssl_resnet18_vaiq | PASS | None | |
+| ssl_resnet50_vaiq | PASS | None | |
+| ssl_resnext101_32x16d_vaiq | PASS | None | |
+| ssl_resnext101_32x4d_vaiq | PASS | None | |
+| ssl_resnext101_32x8d_vaiq | PASS | None | |
+| ssl_resnext50_32x4d_vaiq | PASS | None | |
+| swsl_resnet18_vaiq | PASS | None | |
+| swsl_resnet50_vaiq | PASS | None | |
+| swsl_resnext101_32x16d_vaiq | PASS | None | |
+| swsl_resnext101_32x4d_vaiq | PASS | None | |
+| swsl_resnext101_32x8d_vaiq | PASS | None | |
+| swsl_resnext50_32x4d_vaiq | PASS | None | |
+| tf_efficientnet_el.in1k_vaiq | Numerics | None | |
+| tf_efficientnet_em.in1k_vaiq | PASS | None | |
+| tf_efficientnet_es.in1k_vaiq | PASS | None | |
+| tf_efficientnet_lite0.in1k_vaiq | PASS | None | |
+| tf_efficientnet_lite1.in1k_vaiq | PASS | None | |
+| tf_efficientnet_lite2.in1k_vaiq | Numerics | None | |
+| tf_efficientnet_lite3.in1k_vaiq | Numerics | None | |
+| tf_efficientnet_lite4.in1k_vaiq | Numerics | None | |
+| tf_efficientnetv2_b0.in1k_train_vaiq | compilation | None | |
+| tf_efficientnetv2_b0.in1k_vaiq | compilation | None | |
+| tf_efficientnetv2_b1.in1k_train_vaiq | compilation | None | |
+| tf_efficientnetv2_b1.in1k_vaiq | compilation | None | |
+| tf_efficientnetv2_b2.in1k_train_vaiq | compilation | None | |
+| tf_efficientnetv2_b2.in1k_vaiq | compilation | None | |
+| tf_efficientnetv2_b3.in1k_train_vaiq | compilation | None | |
+| tf_efficientnetv2_b3.in1k_vaiq | compilation | None | |
+| tf_efficientnetv2_b3.in21k_ft_in1k_train_vaiq | compilation | None | |
+| tf_efficientnetv2_b3.in21k_ft_in1k_vaiq | compilation | None | |
+| tf_inception_v3_vaiq | Numerics | None | |
+| tf_mobilenetv3_large_minimal_100.in1k_vaiq | PASS | None | |
+| tf_mobilenetv3_small_075.in1k_vaiq | compilation | None | |
+| tf_mobilenetv3_small_100.in1k_vaiq | compilation | None | |
+| tf_mobilenetv3_small_minimal_100.in1k_vaiq | PASS | None | |
+| tinynet_a.in1k_vaiq | compilation | None | |
+| tinynet_d.in1k_vaiq | compilation | None | |
+| tv_densenet121_vaiq | PASS | None | |
+| tv_resnet101_vaiq | PASS | None | |
+| tv_resnet152_vaiq | PASS | None | |
+| tv_resnet34_vaiq | PASS | None | |
+| tv_resnet50_vaiq | PASS | None | |
+| tv_resnext50_32x4d_vaiq | PASS | None | |
+| vgg11_bn_vaiq | PASS | None | |
+| vgg11_vaiq | PASS | None | |
+| vgg13_bn_vaiq | PASS | None | |
+| vgg13_vaiq | PASS | None | |
+| vgg16_bn_vaiq | PASS | None | |
+| vgg16_vaiq | PASS | None | |
+| vgg19_bn_vaiq | PASS | None | |
+| vgg19_vaiq | PASS | None | |
+| wide_resnet101_2_vaiq | PASS | None | |
+| wide_resnet50_2_test_vaiq | PASS | None | |
+| wide_resnet50_2_vaiq | PASS | None | |
+| xception41_vaiq | Numerics | None | |
+| xception41p_vaiq | Numerics | None | |
+| xception65_vaiq | Numerics | None | |
+| xception65p_vaiq | Numerics | None | |
+| xception71_vaiq | Numerics | None | |
+| xception_vaiq | Numerics | None | |
