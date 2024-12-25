@@ -4,20 +4,20 @@
 |Stage|# Passing|% of Total|% of Attempted|
 |--|--|--|--|
 | Setup | 498 | 99.8% | 99.8% |
-| IREE Compilation | 445 | 89.2% | 89.4% |
-| Gold Inference | 445 | 89.2% | 100.0% |
-| IREE Inference Invocation | 445 | 89.2% | 100.0% |
-| Inference Comparison (PASS) | 355 | 71.1% | 79.8% |
+| IREE Compilation | 354 | 70.9% | 71.1% |
+| Gold Inference | 354 | 70.9% | 100.0% |
+| IREE Inference Invocation | 354 | 70.9% | 100.0% |
+| Inference Comparison (PASS) | 319 | 63.9% | 90.1% |
 ## Fail Summary
 
 **TOTAL TESTS = 499**
 |Stage|# Failed at Stage|% of Total|
 |--|--|--|
 | Setup | 1 | 0.2% |
-| IREE Compilation | 53 | 10.6% |
+| IREE Compilation | 144 | 28.9% |
 | Gold Inference | 0 | 0.0% |
 | IREE Inference Invocation | 0 | 0.0% |
-| Inference Comparison | 90 | 18.0% |
+| Inference Comparison | 35 | 7.0% |
 ## Test Run Detail
 Test was run with the following arguments:
 Namespace(sources=['./e2eshark-reports/ci_reports_rocm_vai-hf-cnn-fp32-shard1_onnx_json/vai-hf-cnn-fp32-shard1.json', './e2eshark-reports/ci_reports_rocm_vai-hf-cnn-fp32-shard2_onnx_json/vai-hf-cnn-fp32-shard2.json', './e2eshark-reports/ci_reports_rocm_vai-hf-cnn-fp32-shard3_onnx_json/vai-hf-cnn-fp32-shard3.json'], output='./e2eshark-reports/vai-hf-cnn-fp32.json', report=True, report_file='./e2eshark-reports/vai-hf-cnn-fp32.md')
@@ -47,27 +47,27 @@ Namespace(sources=['./e2eshark-reports/ci_reports_rocm_vai-hf-cnn-fp32-shard1_on
 | coat_lite_tiny | PASS | None | |
 | coat_mini | PASS | None | |
 | coat_tiny | PASS | None | |
-| coatnet_0_rw_224.sw_in1k | PASS | None | |
-| coatnet_1_rw_224.sw_in1k | PASS | None | |
-| coatnet_2_rw_224.sw_in12k | PASS | None | |
-| coatnet_2_rw_224.sw_in12k_ft_in1k | PASS | None | |
-| coatnet_3_rw_224.sw_in12k | PASS | None | |
-| coatnet_bn_0_rw_224.sw_in1k | PASS | None | |
-| coatnet_nano_rw_224.sw_in1k | PASS | None | |
-| coatnet_rmlp_1_rw2_224.sw_in12k | PASS | None | |
-| coatnet_rmlp_1_rw2_224.sw_in12k_ft_in1k | PASS | None | |
-| coatnet_rmlp_1_rw_224.sw_in1k | PASS | None | |
-| coatnet_rmlp_2_rw_224.sw_in12k | PASS | None | |
-| coatnet_rmlp_2_rw_224.sw_in12k_ft_in1k | PASS | None | |
-| coatnet_rmlp_2_rw_224.sw_in1k | PASS | None | |
+| coatnet_0_rw_224.sw_in1k | compilation | None | |
+| coatnet_1_rw_224.sw_in1k | compilation | None | |
+| coatnet_2_rw_224.sw_in12k | compilation | None | |
+| coatnet_2_rw_224.sw_in12k_ft_in1k | compilation | None | |
+| coatnet_3_rw_224.sw_in12k | compilation | None | |
+| coatnet_bn_0_rw_224.sw_in1k | compilation | None | |
+| coatnet_nano_rw_224.sw_in1k | compilation | None | |
+| coatnet_rmlp_1_rw2_224.sw_in12k | compilation | None | |
+| coatnet_rmlp_1_rw2_224.sw_in12k_ft_in1k | compilation | None | |
+| coatnet_rmlp_1_rw_224.sw_in1k | compilation | None | |
+| coatnet_rmlp_2_rw_224.sw_in12k | compilation | None | |
+| coatnet_rmlp_2_rw_224.sw_in12k_ft_in1k | compilation | None | |
+| coatnet_rmlp_2_rw_224.sw_in1k | compilation | None | |
 | coatnet_rmlp_2_rw_384.sw_in12k_ft_in1k | PASS | None | |
-| coatnet_rmlp_nano_rw_224.sw_in1k | PASS | None | |
+| coatnet_rmlp_nano_rw_224.sw_in1k | compilation | None | |
 | coatnext_nano_rw_224.sw_in1k | PASS | None | |
 | convit_base | PASS | None | |
 | convit_small | PASS | None | |
 | convit_tiny | PASS | None | |
 | convnext_atto.d2_in1k | PASS | None | |
-| convnext_atto_ols.a2_in1k | Numerics | None | |
+| convnext_atto_ols.a2_in1k | PASS | None | |
 | convnext_base.clip_laion2b | PASS | None | |
 | convnext_base.clip_laion2b_augreg | PASS | None | |
 | convnext_base.clip_laion2b_augreg_ft_in1k | PASS | None | |
@@ -142,7 +142,7 @@ Namespace(sources=['./e2eshark-reports/ci_reports_rocm_vai-hf-cnn-fp32-shard1_on
 | crossvit_base_240 | PASS | None | |
 | crossvit_small_240 | PASS | None | |
 | crossvit_tiny_240 | PASS | None | |
-| darknetaa53 | PASS | None | |
+| darknetaa53 | compilation | None | |
 | davit_base.msft_in1k | PASS | None | |
 | davit_small.msft_in1k | compilation | None | |
 | davit_tiny.msft_in1k | compilation | None | |
@@ -168,28 +168,28 @@ Namespace(sources=['./e2eshark-reports/ci_reports_rocm_vai-hf-cnn-fp32-shard1_on
 | deit_small_patch16_224.fb_in1k | PASS | None | |
 | deit_tiny_distilled_patch16_224.fb_in1k | PASS | None | |
 | deit_tiny_patch16_224.fb_in1k | PASS | None | |
-| densenet201 | Numerics | None | |
-| dm_nfnet_f2.dm_in1k | Numerics | None | |
-| dm_nfnet_f3.dm_in1k | Numerics | None | |
+| densenet201 | compilation | None | |
+| dm_nfnet_f2.dm_in1k | compilation | None | |
+| dm_nfnet_f3.dm_in1k | compilation | None | |
 | dm_nfnet_f4.dm_in1k | compilation | None | |
 | eca_botnext26ts_256 | compilation | None | |
-| ecaresnet269d | Numerics | None | |
+| ecaresnet269d | compilation | None | |
 | edgenext_base | PASS | None | |
 | edgenext_small | PASS | None | |
 | edgenext_small_rw | Numerics | None | |
 | edgenext_x_small | PASS | None | |
 | edgenext_xx_small | PASS | None | |
-| efficientformer_l1.snap_dist_in1k | Numerics | None | |
-| efficientformer_l3.snap_dist_in1k | Numerics | None | |
-| efficientformer_l7.snap_dist_in1k | Numerics | None | |
-| efficientformerv2_l.snap_dist_in1k | Numerics | None | |
-| efficientformerv2_s0.snap_dist_in1k | Numerics | None | |
-| efficientformerv2_s1.snap_dist_in1k | Numerics | None | |
-| efficientformerv2_s2.snap_dist_in1k | Numerics | None | |
+| efficientformer_l1.snap_dist_in1k | compilation | None | |
+| efficientformer_l3.snap_dist_in1k | compilation | None | |
+| efficientformer_l7.snap_dist_in1k | compilation | None | |
+| efficientformerv2_l.snap_dist_in1k | compilation | None | |
+| efficientformerv2_s0.snap_dist_in1k | compilation | None | |
+| efficientformerv2_s1.snap_dist_in1k | compilation | None | |
+| efficientformerv2_s2.snap_dist_in1k | compilation | None | |
 | efficientnet_b1_pruned.in1k | compilation | None | |
 | efficientnet_b2_pruned.in1k | PASS | None | |
-| efficientnet_b3_pruned.in1k | Numerics | None | |
-| efficientnet_b5.in12k | Numerics | None | |
+| efficientnet_b3_pruned.in1k | compilation | None | |
+| efficientnet_b5.in12k | compilation | None | |
 | efficientnet_b5.in12k_ft_in1k | compilation | None | |
 | eva_large_patch14_196.in22k_ft_in1k | PASS | None | |
 | eva_large_patch14_196.in22k_ft_in22k_in1k | PASS | None | |
@@ -204,18 +204,18 @@ Namespace(sources=['./e2eshark-reports/ci_reports_rocm_vai-hf-cnn-fp32-shard1_on
 | flexivit_small.1200ep_in1k | PASS | None | |
 | flexivit_small.300ep_in1k | PASS | None | |
 | flexivit_small.600ep_in1k | PASS | None | |
-| focalnet_base_lrf.ms_in1k | Numerics | None | |
-| focalnet_base_srf.ms_in1k | Numerics | None | |
-| focalnet_small_lrf.ms_in1k | Numerics | None | |
-| focalnet_small_srf.ms_in1k | Numerics | None | |
-| focalnet_tiny_lrf.ms_in1k | Numerics | None | |
-| focalnet_tiny_srf.ms_in1k | Numerics | None | |
-| gcvit_base | Numerics | None | |
-| gcvit_small | PASS | None | |
-| gcvit_tiny | PASS | None | |
-| gcvit_xtiny | PASS | None | |
-| gcvit_xxtiny | PASS | None | |
-| gluon_xception65 | PASS | None | |
+| focalnet_base_lrf.ms_in1k | compilation | None | |
+| focalnet_base_srf.ms_in1k | compilation | None | |
+| focalnet_small_lrf.ms_in1k | compilation | None | |
+| focalnet_small_srf.ms_in1k | compilation | None | |
+| focalnet_tiny_lrf.ms_in1k | compilation | None | |
+| focalnet_tiny_srf.ms_in1k | compilation | None | |
+| gcvit_base | compilation | None | |
+| gcvit_small | compilation | None | |
+| gcvit_tiny | compilation | None | |
+| gcvit_xtiny | compilation | None | |
+| gcvit_xxtiny | compilation | None | |
+| gluon_xception65 | compilation | None | |
 | gmixer_24_224.ra3_in1k | PASS | None | |
 | gmlp_s16_224.ra3_in1k | PASS | None | |
 | jx_nest_base | PASS | None | |
@@ -233,32 +233,32 @@ Namespace(sources=['./e2eshark-reports/ci_reports_rocm_vai-hf-cnn-fp32-shard1_on
 | levit_conv_192.fb_dist_in1k | Numerics | None | |
 | levit_conv_256.fb_dist_in1k | PASS | None | |
 | levit_conv_384.fb_dist_in1k | Numerics | None | |
-| maxvit_base_tf_224.in1k | Numerics | None | |
-| maxvit_base_tf_384.in1k | PASS | None | |
-| maxvit_base_tf_384.in21k_ft_in1k | PASS | None | |
+| maxvit_base_tf_224.in1k | compilation | None | |
+| maxvit_base_tf_384.in1k | compilation | None | |
+| maxvit_base_tf_384.in21k_ft_in1k | compilation | None | |
 | maxvit_base_tf_512.in1k | PASS | None | |
 | maxvit_base_tf_512.in21k_ft_in1k | PASS | None | |
-| maxvit_large_tf_224.in1k | Numerics | None | |
-| maxvit_large_tf_384.in1k | PASS | None | |
-| maxvit_large_tf_384.in21k_ft_in1k | PASS | None | |
+| maxvit_large_tf_224.in1k | compilation | None | |
+| maxvit_large_tf_384.in1k | compilation | None | |
+| maxvit_large_tf_384.in21k_ft_in1k | compilation | None | |
 | maxvit_large_tf_512.in1k | PASS | None | |
 | maxvit_large_tf_512.in21k_ft_in1k | PASS | None | |
 | maxvit_nano_rw_256.sw_in1k | compilation | None | |
-| maxvit_rmlp_base_rw_224.sw_in12k | Numerics | None | |
-| maxvit_rmlp_base_rw_224.sw_in12k_ft_in1k | Numerics | None | |
+| maxvit_rmlp_base_rw_224.sw_in12k | compilation | None | |
+| maxvit_rmlp_base_rw_224.sw_in12k_ft_in1k | compilation | None | |
 | maxvit_rmlp_base_rw_384.sw_in12k_ft_in1k | compilation | None | |
 | maxvit_rmlp_nano_rw_256.sw_in1k | compilation | None | |
 | maxvit_rmlp_pico_rw_256.sw_in1k | compilation | None | |
-| maxvit_rmlp_small_rw_224.sw_in1k | Numerics | None | |
+| maxvit_rmlp_small_rw_224.sw_in1k | compilation | None | |
 | maxvit_rmlp_tiny_rw_256.sw_in1k | compilation | None | |
-| maxvit_small_tf_224.in1k | Numerics | None | |
-| maxvit_small_tf_384.in1k | PASS | None | |
+| maxvit_small_tf_224.in1k | compilation | None | |
+| maxvit_small_tf_384.in1k | compilation | None | |
 | maxvit_small_tf_512.in1k | PASS | None | |
-| maxvit_tiny_rw_224.sw_in1k | Numerics | None | |
-| maxvit_tiny_tf_224.in1k | Numerics | None | |
-| maxvit_tiny_tf_384.in1k | PASS | None | |
+| maxvit_tiny_rw_224.sw_in1k | compilation | None | |
+| maxvit_tiny_tf_224.in1k | compilation | None | |
+| maxvit_tiny_tf_384.in1k | compilation | None | |
 | maxvit_tiny_tf_512.in1k | PASS | None | |
-| maxvit_xlarge_tf_384.in21k_ft_in1k | PASS | None | |
+| maxvit_xlarge_tf_384.in21k_ft_in1k | compilation | None | |
 | maxvit_xlarge_tf_512.in21k_ft_in1k | setup | None | |
 | maxxvit_rmlp_nano_rw_256.sw_in1k | compilation | None | |
 | maxxvit_rmlp_small_rw_256.sw_in1k | compilation | None | |
@@ -280,10 +280,10 @@ Namespace(sources=['./e2eshark-reports/ci_reports_rocm_vai-hf-cnn-fp32-shard1_on
 | mobilevitv2_150_384_in22ft1k | compilation | None | |
 | mobilevitv2_150_in22ft1k | compilation | None | |
 | mobilevitv2_175 | PASS | None | |
-| mobilevitv2_175_384_in22ft1k | Numerics | None | |
+| mobilevitv2_175_384_in22ft1k | compilation | None | |
 | mobilevitv2_175_in22ft1k | PASS | None | |
 | mobilevitv2_200 | PASS | None | |
-| mobilevitv2_200_384_in22ft1k | Numerics | None | |
+| mobilevitv2_200_384_in22ft1k | compilation | None | |
 | mobilevitv2_200_in22ft1k | PASS | None | |
 | mvitv2_base | compilation | None | |
 | mvitv2_large | compilation | None | |
@@ -301,9 +301,9 @@ Namespace(sources=['./e2eshark-reports/ci_reports_rocm_vai-hf-cnn-fp32-shard1_on
 | pnasnet5large | Numerics | None | |
 | poolformer_m36 | compilation | None | |
 | poolformer_m48 | compilation | None | |
-| poolformer_s12 | PASS | None | |
-| poolformer_s24 | PASS | None | |
-| poolformer_s36 | PASS | None | |
+| poolformer_s12 | compilation | None | |
+| poolformer_s24 | compilation | None | |
+| poolformer_s36 | compilation | None | |
 | pvt_v2_b0 | PASS | None | |
 | pvt_v2_b1 | PASS | None | |
 | pvt_v2_b2 | PASS | None | |
@@ -311,20 +311,20 @@ Namespace(sources=['./e2eshark-reports/ci_reports_rocm_vai-hf-cnn-fp32-shard1_on
 | pvt_v2_b3 | PASS | None | |
 | pvt_v2_b4 | PASS | None | |
 | pvt_v2_b5 | PASS | None | |
-| regnety_120.sw_in12k | Numerics | None | |
-| regnety_160.deit_in1k | PASS | None | |
-| regnety_160.sw_in12k | Numerics | None | |
-| regnety_320.seer | Numerics | None | |
-| regnety_640.seer | Numerics | None | |
+| regnety_120.sw_in12k | compilation | None | |
+| regnety_160.deit_in1k | compilation | None | |
+| regnety_160.sw_in12k | compilation | None | |
+| regnety_320.seer | compilation | None | |
+| regnety_640.seer | compilation | None | |
 | resmlp_big_24_224.fb_in1k | PASS | None | |
 | resmlp_big_24_224.fb_in22k_ft_in1k | PASS | None | |
-| resnest200e | Numerics | None | |
-| resnest269e | PASS | None | |
-| resnetrs270 | PASS | None | |
+| resnest200e | compilation | None | |
+| resnest269e | compilation | None | |
+| resnetrs270 | compilation | None | |
 | resnetrs350 | compilation | None | |
-| resnetrs420 | Numerics | None | |
+| resnetrs420 | compilation | None | |
 | rexnetr_200.sw_in12k | PASS | None | |
-| rexnetr_300.sw_in12k | PASS | None | |
+| rexnetr_300.sw_in12k | compilation | None | |
 | sebotnet33ts_256 | compilation | None | |
 | sequencer2d_l | compilation | None | |
 | swin_base_patch4_window12_384.ms_in1k | PASS | None | |
@@ -353,21 +353,21 @@ Namespace(sources=['./e2eshark-reports/ci_reports_rocm_vai-hf-cnn-fp32-shard1_on
 | swinv2_small_window8_256.ms_in1k | PASS | None | |
 | swinv2_tiny_window16_256.ms_in1k | PASS | None | |
 | swinv2_tiny_window8_256.ms_in1k | PASS | None | |
-| tf_efficientnet_b0.aa_in1k | Numerics | None | |
-| tf_efficientnet_b0.ap_in1k | Numerics | None | |
-| tf_efficientnet_b0.ns_jft_in1k | Numerics | None | |
+| tf_efficientnet_b0.aa_in1k | compilation | None | |
+| tf_efficientnet_b0.ap_in1k | compilation | None | |
+| tf_efficientnet_b0.ns_jft_in1k | compilation | None | |
 | tf_efficientnet_b1.aa_in1k | compilation | None | |
 | tf_efficientnet_b1.ap_in1k | compilation | None | |
 | tf_efficientnet_b1.ns_jft_in1k | compilation | None | |
 | tf_efficientnet_b2.aa_in1k | PASS | None | |
 | tf_efficientnet_b2.ap_in1k | PASS | None | |
 | tf_efficientnet_b2.ns_jft_in1k | PASS | None | |
-| tf_efficientnet_b3.aa_in1k | Numerics | None | |
-| tf_efficientnet_b3.ap_in1k | Numerics | None | |
-| tf_efficientnet_b3.ns_jft_in1k | Numerics | None | |
-| tf_efficientnet_b4.aa_in1k | Numerics | None | |
-| tf_efficientnet_b4.ap_in1k | Numerics | None | |
-| tf_efficientnet_b4.ns_jft_in1k | Numerics | None | |
+| tf_efficientnet_b3.aa_in1k | compilation | None | |
+| tf_efficientnet_b3.ap_in1k | compilation | None | |
+| tf_efficientnet_b3.ns_jft_in1k | compilation | None | |
+| tf_efficientnet_b4.aa_in1k | compilation | None | |
+| tf_efficientnet_b4.ap_in1k | compilation | None | |
+| tf_efficientnet_b4.ns_jft_in1k | compilation | None | |
 | tf_efficientnet_b5.ap_in1k | Numerics | None | |
 | tf_efficientnet_b5.ns_jft_in1k | Numerics | None | |
 | tf_efficientnet_b5.ra_in1k | Numerics | None | |
@@ -380,20 +380,20 @@ Namespace(sources=['./e2eshark-reports/ci_reports_rocm_vai-hf-cnn-fp32-shard1_on
 | tf_efficientnet_b8.ap_in1k | Numerics | None | |
 | tf_efficientnet_b8.ra_in1k | Numerics | None | |
 | tf_efficientnet_l2.ns_jft_in1k | Numerics | None | |
-| tf_efficientnet_l2.ns_jft_in1k_475 | Numerics | None | |
-| tf_efficientnetv2_l.in1k | PASS | None | |
-| tf_efficientnetv2_l.in21k_ft_in1k | PASS | None | |
-| tf_efficientnetv2_m.in1k | Numerics | None | |
-| tf_efficientnetv2_m.in21k_ft_in1k | Numerics | None | |
+| tf_efficientnet_l2.ns_jft_in1k_475 | compilation | None | |
+| tf_efficientnetv2_l.in1k | compilation | None | |
+| tf_efficientnetv2_l.in21k_ft_in1k | compilation | None | |
+| tf_efficientnetv2_m.in1k | compilation | None | |
+| tf_efficientnetv2_m.in21k_ft_in1k | compilation | None | |
 | tf_efficientnetv2_s.in1k | compilation | None | |
 | tf_efficientnetv2_s.in21k_ft_in1k | compilation | None | |
 | tf_efficientnetv2_xl.in21k_ft_in1k | compilation | None | |
-| tf_mixnet_l.in1k | Numerics | None | |
-| tf_mixnet_m.in1k | Numerics | None | |
-| tf_mixnet_s.in1k | Numerics | None | |
-| tf_mobilenetv3_large_075.in1k | Numerics | None | |
-| tf_mobilenetv3_large_100.in1k | Numerics | None | |
-| tinynet_b.in1k | PASS | None | |
+| tf_mixnet_l.in1k | compilation | None | |
+| tf_mixnet_m.in1k | compilation | None | |
+| tf_mixnet_s.in1k | compilation | None | |
+| tf_mobilenetv3_large_075.in1k | compilation | None | |
+| tf_mobilenetv3_large_100.in1k | compilation | None | |
+| tinynet_b.in1k | compilation | None | |
 | tinynet_c.in1k | PASS | None | |
 | tinynet_e.in1k | PASS | None | |
 | tnt_s_patch16_224 | PASS | None | |
@@ -403,7 +403,7 @@ Namespace(sources=['./e2eshark-reports/ci_reports_rocm_vai-hf-cnn-fp32-shard1_on
 | twins_svt_base | PASS | None | |
 | twins_svt_large | PASS | None | |
 | twins_svt_small | PASS | None | |
-| visformer_small | Numerics | None | |
+| visformer_small | compilation | None | |
 | vit_base_patch16_224.augreg2_in21k_ft_in1k | PASS | None | |
 | vit_base_patch16_224.augreg_in1k | PASS | None | |
 | vit_base_patch16_224.augreg_in21k_ft_in1k | PASS | None | |
@@ -456,7 +456,7 @@ Namespace(sources=['./e2eshark-reports/ci_reports_rocm_vai-hf-cnn-fp32-shard1_on
 | vit_large_patch16_384.augreg_in21k_ft_in1k | PASS | None | |
 | vit_large_patch32_384.orig_in21k_ft_in1k | PASS | None | |
 | vit_large_r50_s32_224.augreg_in21k_ft_in1k | PASS | None | |
-| vit_large_r50_s32_384.augreg_in21k_ft_in1k | PASS | None | |
+| vit_large_r50_s32_384.augreg_in21k_ft_in1k | Numerics | None | |
 | vit_medium_patch16_gap_240.in12k | PASS | None | |
 | vit_medium_patch16_gap_256.in12k_ft_in1k | PASS | None | |
 | vit_medium_patch16_gap_384.in12k_ft_in1k | PASS | None | |
@@ -473,7 +473,7 @@ Namespace(sources=['./e2eshark-reports/ci_reports_rocm_vai-hf-cnn-fp32-shard1_on
 | vit_small_patch16_384.augreg_in21k_ft_in1k | PASS | None | |
 | vit_small_patch32_224.augreg_in21k_ft_in1k | PASS | None | |
 | vit_small_patch32_384.augreg_in21k_ft_in1k | PASS | None | |
-| vit_small_r26_s32_224.augreg_in21k_ft_in1k | Numerics | None | |
+| vit_small_r26_s32_224.augreg_in21k_ft_in1k | PASS | None | |
 | vit_small_r26_s32_384.augreg_in21k_ft_in1k | PASS | None | |
 | vit_srelpos_medium_patch16_224.sw_in1k | PASS | None | |
 | vit_srelpos_small_patch16_224.sw_in1k | PASS | None | |

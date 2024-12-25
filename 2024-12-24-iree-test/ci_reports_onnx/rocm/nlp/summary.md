@@ -4,17 +4,17 @@
 |Stage|# Passing|% of Total|% of Attempted|
 |--|--|--|--|
 | Setup | 1195 | 99.7% | 99.7% |
-| IREE Compilation | 1185 | 98.9% | 99.2% |
-| Gold Inference | 1185 | 98.9% | 100.0% |
-| IREE Inference Invocation | 1185 | 98.9% | 100.0% |
-| Inference Comparison (PASS) | 1164 | 97.2% | 98.2% |
+| IREE Compilation | 1184 | 98.8% | 99.1% |
+| Gold Inference | 1184 | 98.8% | 100.0% |
+| IREE Inference Invocation | 1184 | 98.8% | 100.0% |
+| Inference Comparison (PASS) | 1163 | 97.1% | 98.2% |
 ## Fail Summary
 
 **TOTAL TESTS = 1198**
 |Stage|# Failed at Stage|% of Total|
 |--|--|--|
 | Setup | 3 | 0.3% |
-| IREE Compilation | 10 | 0.8% |
+| IREE Compilation | 11 | 0.9% |
 | Gold Inference | 0 | 0.0% |
 | IREE Inference Invocation | 0 | 0.0% |
 | Inference Comparison | 21 | 1.8% |
@@ -1163,7 +1163,7 @@ Namespace(sources=['./e2eshark-reports/ci_reports_rocm_nlp-shard1_onnx_json/nlp-
 | model--splinter-large-few-shot-k-16-finetuned-squad-seed-4--anas-awadalla | PASS | None | |
 | model--splinter-large-few-shot-k-32-finetuned-squad-seed-2--anas-awadalla | PASS | None | |
 | model--squad_it_xxl_cased_hub1--luigisaetta | PASS | None | |
-| model--squeezebert-uncased-finetuned-squad--SupriyaArun | PASS | None | |
+| model--squeezebert-uncased-finetuned-squad--SupriyaArun | compilation | None | |
 | model--summarization-not-evaluated--autoevaluate | PASS | None | |
 | model--t5-base-fr-sum-cnndm--plguillou | PASS | None | |
 | model--t5-large-finetuned-xsum-cnn--sysresearch101 | PASS | None | |
