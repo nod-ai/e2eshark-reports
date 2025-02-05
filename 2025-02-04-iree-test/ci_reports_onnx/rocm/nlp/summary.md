@@ -7,7 +7,7 @@
 | IREE Compilation | 1185 | 98.9% | 99.2% |
 | Gold Inference | 1185 | 98.9% | 100.0% |
 | IREE Inference Invocation | 1185 | 98.9% | 100.0% |
-| Inference Comparison (PASS) | 1168 | 97.5% | 98.6% |
+| Inference Comparison (PASS) | 1167 | 97.4% | 98.5% |
 ## Fail Summary
 
 **TOTAL TESTS = 1198**
@@ -17,7 +17,7 @@
 | IREE Compilation | 10 | 0.8% |
 | Gold Inference | 0 | 0.0% |
 | IREE Inference Invocation | 0 | 0.0% |
-| Inference Comparison | 17 | 1.4% |
+| Inference Comparison | 18 | 1.5% |
 ## Test Run Detail
 Test was run with the following arguments:
 Namespace(sources=['./e2eshark-reports/ci_reports_rocm_nlp-shard1_onnx_json/nlp-shard1.json', './e2eshark-reports/ci_reports_rocm_nlp-shard2_onnx_json/nlp-shard2.json', './e2eshark-reports/ci_reports_rocm_nlp-shard3_onnx_json/nlp-shard3.json'], output='./e2eshark-reports/nlp.json', report=True, report_file='./e2eshark-reports/nlp.md')
@@ -1096,7 +1096,7 @@ Namespace(sources=['./e2eshark-reports/ci_reports_rocm_nlp-shard1_onnx_json/nlp-
 | model--roberta_large-ner-conll2003_0818_v0--mariolinml | PASS | None | |
 | model--roberta_large-unbalanced_simple-ner-conll2003_0908_v0--mariolinml | PASS | None | |
 | model--roberta_qa_japanese--tsmatz | PASS | None | |
-| model--roberta_shared_bbc_xsum--patrickvonplaten | PASS | None | |
+| model--roberta_shared_bbc_xsum--patrickvonplaten | Numerics | None | |
 | model--rubert-tiny-toxicity--cointegrated | PASS | None | |
 | model--s2t-medium-librispeech-asr--facebook | compilation | None | |
 | model--sberbank-rubert-base-collection3--viktoroo | PASS | None | |
