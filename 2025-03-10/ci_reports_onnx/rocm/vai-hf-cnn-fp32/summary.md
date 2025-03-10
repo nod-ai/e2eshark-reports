@@ -6,8 +6,8 @@
 | Setup | 498 | 99.8% | 99.8% |
 | IREE Compilation | 497 | 99.6% | 99.8% |
 | Gold Inference | 497 | 99.6% | 100.0% |
-| IREE Inference Invocation | 493 | 98.8% | 99.2% |
-| Inference Comparison (PASS) | 487 | 97.6% | 98.8% |
+| IREE Inference Invocation | 496 | 99.4% | 99.8% |
+| Inference Comparison (PASS) | 490 | 98.2% | 98.8% |
 ## Fail Summary
 
 **TOTAL TESTS = 499**
@@ -16,7 +16,7 @@
 | Setup | 1 | 0.2% |
 | IREE Compilation | 1 | 0.2% |
 | Gold Inference | 0 | 0.0% |
-| IREE Inference Invocation | 4 | 0.8% |
+| IREE Inference Invocation | 1 | 0.2% |
 | Inference Comparison | 6 | 1.2% |
 ## Test Run Detail
 Test was run with the following arguments:
@@ -24,9 +24,9 @@ Namespace(sources=['./e2eshark-reports/ci_reports_rocm_vai-hf-cnn-fp32-shard1_on
 
 | Test | Exit Status | Mean Benchmark Time (ms) | Notes |
 |--|--|--|--|
-| bat_resnext26ts.ch_in1k | compiled_inference | None | |
-| beit_base_patch16_224.in22k_ft_in22k_in1k | compiled_inference | None | |
-| beit_base_patch16_384.in22k_ft_in22k_in1k | compiled_inference | None | |
+| bat_resnext26ts.ch_in1k | PASS | None | |
+| beit_base_patch16_224.in22k_ft_in22k_in1k | PASS | None | |
+| beit_base_patch16_384.in22k_ft_in22k_in1k | PASS | None | |
 | beit_large_patch16_224.in22k_ft_in22k_in1k | PASS | None | |
 | beit_large_patch16_384.in22k_ft_in22k_in1k | PASS | None | |
 | beitv2_base_patch16_224.in1k_ft_in22k_in1k | PASS | None | |

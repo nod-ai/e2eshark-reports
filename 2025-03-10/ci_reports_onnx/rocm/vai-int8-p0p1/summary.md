@@ -6,8 +6,8 @@
 | Setup | 486 | 100.0% | 100.0% |
 | IREE Compilation | 485 | 99.8% | 99.8% |
 | Gold Inference | 485 | 99.8% | 100.0% |
-| IREE Inference Invocation | 465 | 95.7% | 95.9% |
-| Inference Comparison (PASS) | 386 | 79.4% | 83.0% |
+| IREE Inference Invocation | 469 | 96.5% | 96.7% |
+| Inference Comparison (PASS) | 390 | 80.2% | 83.2% |
 ## Fail Summary
 
 **TOTAL TESTS = 486**
@@ -16,7 +16,7 @@
 | Setup | 0 | 0.0% |
 | IREE Compilation | 1 | 0.2% |
 | Gold Inference | 0 | 0.0% |
-| IREE Inference Invocation | 20 | 4.1% |
+| IREE Inference Invocation | 16 | 3.3% |
 | Inference Comparison | 79 | 16.3% |
 ## Test Run Detail
 Test was run with the following arguments:
@@ -348,10 +348,10 @@ Namespace(sources=['./e2eshark-reports/ci_reports_rocm_vai-int8-p0p1-shard1_onnx
 | resnet18_vaiq | PASS | None | |
 | resnet18d_test_vaiq | PASS | None | |
 | resnet18d_vaiq | PASS | None | |
-| resnet200d_train_vaiq | compiled_inference | None | |
-| resnet200d_vaiq | compiled_inference | None | |
-| resnet26_test_vaiq | compiled_inference | None | |
-| resnet26_vaiq | compiled_inference | None | |
+| resnet200d_train_vaiq | PASS | None | |
+| resnet200d_vaiq | PASS | None | |
+| resnet26_test_vaiq | PASS | None | |
+| resnet26_vaiq | PASS | None | |
 | resnet26d_test_vaiq | PASS | None | |
 | resnet26d_vaiq | PASS | None | |
 | resnet26t_test_vaiq | PASS | None | |

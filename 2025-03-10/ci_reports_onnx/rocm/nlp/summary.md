@@ -6,8 +6,8 @@
 | Setup | 1195 | 99.7% | 99.7% |
 | IREE Compilation | 1185 | 98.9% | 99.2% |
 | Gold Inference | 1185 | 98.9% | 100.0% |
-| IREE Inference Invocation | 1179 | 98.4% | 99.5% |
-| Inference Comparison (PASS) | 1163 | 97.1% | 98.6% |
+| IREE Inference Invocation | 1185 | 98.9% | 100.0% |
+| Inference Comparison (PASS) | 1169 | 97.6% | 98.6% |
 ## Fail Summary
 
 **TOTAL TESTS = 1198**
@@ -16,7 +16,7 @@
 | Setup | 3 | 0.3% |
 | IREE Compilation | 10 | 0.8% |
 | Gold Inference | 0 | 0.0% |
-| IREE Inference Invocation | 6 | 0.5% |
+| IREE Inference Invocation | 0 | 0.0% |
 | Inference Comparison | 16 | 1.3% |
 ## Test Run Detail
 Test was run with the following arguments:
@@ -430,8 +430,8 @@ Namespace(sources=['./e2eshark-reports/ci_reports_rocm_nlp-shard1_onnx_json/nlp-
 | model--bert-finetuned-squad--joe138138 | PASS | None | |
 | model--bert-finetuned-squad--keepitreal | PASS | None | |
 | model--bert-finetuned-squad--kellyxuanlin | PASS | None | |
-| model--bert-finetuned-squad--kenyaari | compiled_inference | None | |
-| model--bert-finetuned-squad--krolis | compiled_inference | None | |
+| model--bert-finetuned-squad--kenyaari | PASS | None | |
+| model--bert-finetuned-squad--krolis | PASS | None | |
 | model--bert-finetuned-squad--lewtun | PASS | None | |
 | model--bert-finetuned-squad--makdong | PASS | None | |
 | model--bert-finetuned-squad--marcowong02 | PASS | None | |
@@ -816,10 +816,10 @@ Namespace(sources=['./e2eshark-reports/ci_reports_rocm_nlp-shard1_onnx_json/nlp-
 | model--finetuning-sentiment-model-3000-samples--mmg30 | PASS | None | |
 | model--finetuning-sentiment-model-3000-samples--monusingh | PASS | None | |
 | model--finetuning-sentiment-model-3000-samples--mwinterhalter | PASS | None | |
-| model--finetuning-sentiment-model-3000-samples--nachowdh | compiled_inference | None | |
-| model--finetuning-sentiment-model-3000-samples--nastorian | compiled_inference | None | |
-| model--finetuning-sentiment-model-3000-samples--nazirzhumakhan | compiled_inference | None | |
-| model--finetuning-sentiment-model-3000-samples--nhero | compiled_inference | None | |
+| model--finetuning-sentiment-model-3000-samples--nachowdh | PASS | None | |
+| model--finetuning-sentiment-model-3000-samples--nastorian | PASS | None | |
+| model--finetuning-sentiment-model-3000-samples--nazirzhumakhan | PASS | None | |
+| model--finetuning-sentiment-model-3000-samples--nhero | PASS | None | |
 | model--finetuning-sentiment-model-3000-samples--nigeltc | PASS | None | |
 | model--finetuning-sentiment-model-3000-samples--rachtxxy | PASS | None | |
 | model--finetuning-sentiment-model-3000-samples--rh-jayson | PASS | None | |

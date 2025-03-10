@@ -6,8 +6,8 @@
 | Setup | 32 | 100.0% | 100.0% |
 | IREE Compilation | 29 | 90.6% | 90.6% |
 | Gold Inference | 29 | 90.6% | 100.0% |
-| IREE Inference Invocation | 27 | 84.4% | 93.1% |
-| Inference Comparison (PASS) | 18 | 56.2% | 66.7% |
+| IREE Inference Invocation | 29 | 90.6% | 100.0% |
+| Inference Comparison (PASS) | 20 | 62.5% | 69.0% |
 ## Fail Summary
 
 **TOTAL TESTS = 32**
@@ -16,7 +16,7 @@
 | Setup | 0 | 0.0% |
 | IREE Compilation | 3 | 9.4% |
 | Gold Inference | 0 | 0.0% |
-| IREE Inference Invocation | 2 | 6.2% |
+| IREE Inference Invocation | 0 | 0.0% |
 | Inference Comparison | 9 | 28.1% |
 ## Test Run Detail
 Test was run with the following arguments:
@@ -24,9 +24,9 @@ Namespace(device='hip', backend='rocm', target_chip='gfx942', iree_compile_args=
 
 | Test | Exit Status | Mean Benchmark Time (ms) | Notes |
 |--|--|--|--|
-| AlexNet_vaiq_int8 | compiled_inference | None | |
+| AlexNet_vaiq_int8 | PASS | None | |
 | ConvNeXt_vaiq_int8 | Numerics | None | |
-| CSP-DarkNet_vaiq_int8 | compiled_inference | None | |
+| CSP-DarkNet_vaiq_int8 | PASS | None | |
 | DarkNet53_vaiq_int8 | Numerics | None | |
 | DeepLabV3_resnet50_vaiq_int8 | PASS | None | |
 | DenseNet201_vaiq_int8 | PASS | None | |

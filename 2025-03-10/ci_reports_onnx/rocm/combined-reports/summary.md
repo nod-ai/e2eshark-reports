@@ -6,8 +6,8 @@
 | Setup | 2301 | 99.8% | 99.8% |
 | IREE Compilation | 2282 | 99.0% | 99.2% |
 | Gold Inference | 2282 | 99.0% | 100.0% |
-| IREE Inference Invocation | 2244 | 97.4% | 98.3% |
-| Inference Comparison (PASS) | 2116 | 91.8% | 94.3% |
+| IREE Inference Invocation | 2265 | 98.3% | 99.3% |
+| Inference Comparison (PASS) | 2135 | 92.6% | 94.3% |
 ## Fail Summary
 
 **TOTAL TESTS = 2305**
@@ -16,8 +16,8 @@
 | Setup | 4 | 0.2% |
 | IREE Compilation | 19 | 0.8% |
 | Gold Inference | 0 | 0.0% |
-| IREE Inference Invocation | 38 | 1.6% |
-| Inference Comparison | 128 | 5.6% |
+| IREE Inference Invocation | 17 | 0.7% |
+| Inference Comparison | 130 | 5.6% |
 ## Test Run Detail
 Test was run with the following arguments:
 Namespace(sources=['./e2eshark-reports/vai-int8-p0p1.json', './e2eshark-reports/vai-hf-cnn-fp32.json', './e2eshark-reports/nlp.json', './e2eshark-reports/ci_reports_rocm_shark-test-suite_onnx_json/shark-test-suite.json', './e2eshark-reports/ci_reports_rocm_vai-vision-int8_onnx_json/vai-vision-int8.json', './e2eshark-reports/ci_reports_rocm_migraphx_onnx_json/migraphx.json'], output='./e2eshark-reports/combined_reports.json', report=True, report_file='./e2eshark-reports/combined_reports.md')
@@ -348,10 +348,10 @@ Namespace(sources=['./e2eshark-reports/vai-int8-p0p1.json', './e2eshark-reports/
 | resnet18_vaiq | PASS | None | |
 | resnet18d_test_vaiq | PASS | None | |
 | resnet18d_vaiq | PASS | None | |
-| resnet200d_train_vaiq | compiled_inference | None | |
-| resnet200d_vaiq | compiled_inference | None | |
-| resnet26_test_vaiq | compiled_inference | None | |
-| resnet26_vaiq | compiled_inference | None | |
+| resnet200d_train_vaiq | PASS | None | |
+| resnet200d_vaiq | PASS | None | |
+| resnet26_test_vaiq | PASS | None | |
+| resnet26_vaiq | PASS | None | |
 | resnet26d_test_vaiq | PASS | None | |
 | resnet26d_vaiq | PASS | None | |
 | resnet26t_test_vaiq | PASS | None | |
@@ -510,9 +510,9 @@ Namespace(sources=['./e2eshark-reports/vai-int8-p0p1.json', './e2eshark-reports/
 | xception65p_vaiq | PASS | None | |
 | xception71_vaiq | Numerics | None | |
 | xception_vaiq | PASS | None | |
-| bat_resnext26ts.ch_in1k | compiled_inference | None | |
-| beit_base_patch16_224.in22k_ft_in22k_in1k | compiled_inference | None | |
-| beit_base_patch16_384.in22k_ft_in22k_in1k | compiled_inference | None | |
+| bat_resnext26ts.ch_in1k | PASS | None | |
+| beit_base_patch16_224.in22k_ft_in22k_in1k | PASS | None | |
+| beit_base_patch16_384.in22k_ft_in22k_in1k | PASS | None | |
 | beit_large_patch16_224.in22k_ft_in22k_in1k | PASS | None | |
 | beit_large_patch16_384.in22k_ft_in22k_in1k | PASS | None | |
 | beitv2_base_patch16_224.in1k_ft_in22k_in1k | PASS | None | |
@@ -1415,8 +1415,8 @@ Namespace(sources=['./e2eshark-reports/vai-int8-p0p1.json', './e2eshark-reports/
 | model--bert-finetuned-squad--joe138138 | PASS | None | |
 | model--bert-finetuned-squad--keepitreal | PASS | None | |
 | model--bert-finetuned-squad--kellyxuanlin | PASS | None | |
-| model--bert-finetuned-squad--kenyaari | compiled_inference | None | |
-| model--bert-finetuned-squad--krolis | compiled_inference | None | |
+| model--bert-finetuned-squad--kenyaari | PASS | None | |
+| model--bert-finetuned-squad--krolis | PASS | None | |
 | model--bert-finetuned-squad--lewtun | PASS | None | |
 | model--bert-finetuned-squad--makdong | PASS | None | |
 | model--bert-finetuned-squad--marcowong02 | PASS | None | |
@@ -1801,10 +1801,10 @@ Namespace(sources=['./e2eshark-reports/vai-int8-p0p1.json', './e2eshark-reports/
 | model--finetuning-sentiment-model-3000-samples--mmg30 | PASS | None | |
 | model--finetuning-sentiment-model-3000-samples--monusingh | PASS | None | |
 | model--finetuning-sentiment-model-3000-samples--mwinterhalter | PASS | None | |
-| model--finetuning-sentiment-model-3000-samples--nachowdh | compiled_inference | None | |
-| model--finetuning-sentiment-model-3000-samples--nastorian | compiled_inference | None | |
-| model--finetuning-sentiment-model-3000-samples--nazirzhumakhan | compiled_inference | None | |
-| model--finetuning-sentiment-model-3000-samples--nhero | compiled_inference | None | |
+| model--finetuning-sentiment-model-3000-samples--nachowdh | PASS | None | |
+| model--finetuning-sentiment-model-3000-samples--nastorian | PASS | None | |
+| model--finetuning-sentiment-model-3000-samples--nazirzhumakhan | PASS | None | |
+| model--finetuning-sentiment-model-3000-samples--nhero | PASS | None | |
 | model--finetuning-sentiment-model-3000-samples--nigeltc | PASS | None | |
 | model--finetuning-sentiment-model-3000-samples--rachtxxy | PASS | None | |
 | model--finetuning-sentiment-model-3000-samples--rh-jayson | PASS | None | |
@@ -2207,8 +2207,8 @@ Namespace(sources=['./e2eshark-reports/vai-int8-p0p1.json', './e2eshark-reports/
 | model--xtremedistil-l6-h256-uncased-squad_1.1--haritzpuerto | PASS | None | |
 | model--xtremedistil-l6-h384-uncased-finetuned-squad--tachyon-11 | PASS | None | |
 | model--yelp_review_rating_reberta_base--Shunian | PASS | None | |
-| AlexNet_vaiq_int8 | compiled_inference | None | |
-| CSP-DarkNet_vaiq_int8 | compiled_inference | None | |
+| AlexNet_vaiq_int8 | PASS | None | |
+| CSP-DarkNet_vaiq_int8 | PASS | None | |
 | ConvNeXt_vaiq_int8 | Numerics | None | |
 | DarkNet53_vaiq_int8 | Numerics | None | |
 | DeepLabV3_resnet50_vaiq_int8 | PASS | None | |
@@ -2239,10 +2239,10 @@ Namespace(sources=['./e2eshark-reports/vai-int8-p0p1.json', './e2eshark-reports/
 | retinanet_resnet50_fpn_vaiq_int8 | compilation | None | |
 | u-net_brain_mri_vaiq_int8 | PASS | None | |
 | yolov8n_vaiq_int8 | PASS | None | |
-| DarkNet53_vaiq | compiled_inference | None | |
-| EfficientNet_b0_vaiq | compiled_inference | None | |
-| EfficientNet_b1_vaiq | compiled_inference | None | |
-| EfficientNet_b2_vaiq | compiled_inference | None | |
+| DarkNet53_vaiq | PASS | None | |
+| EfficientNet_b0_vaiq | Numerics | None | |
+| EfficientNet_b1_vaiq | PASS | None | |
+| EfficientNet_b2_vaiq | Numerics | None | |
 | EfficientNet_b3_vaiq | Numerics | None | |
 | EfficientNet_b4_vaiq | Numerics | None | |
 | EfficientNet_b5_vaiq | PASS | None | |
@@ -2282,50 +2282,50 @@ Namespace(sources=['./e2eshark-reports/vai-int8-p0p1.json', './e2eshark-reports/
 | inception_v3.tf_in1k_vaiq | PASS | None | |
 | inception_v4.tf_in1k_vaiq | PASS | None | |
 | resnet50.a1_in1k_vaiq | PASS | None | |
-| migraphx_ORT__bert_base_cased_1 | compiled_inference | None | |
-| migraphx_ORT__bert_base_uncased_1 | compiled_inference | None | |
-| migraphx_ORT__bert_large_uncased_1 | PASS | 488.2958111666748 | |
-| migraphx_ORT__distilgpt2_1 | PASS | 61.607791999997296 | |
-| migraphx_ORT__onnx_models__bert_base_cased_1_fp16_gpu | Numerics | 61.78826627273213 | |
-| migraphx_ORT__onnx_models__bert_large_uncased_1_fp16_gpu | Numerics | 239.42123822220967 | |
-| migraphx_ORT__onnx_models__distilgpt2_1_fp16_gpu | Numerics | 34.16365833333389 | |
-| migraphx_agentmodel__AgentModel | Numerics | 2.0538796015325365 | |
-| migraphx_bert__bert-large-uncased | PASS | 18.90833164865089 | |
+| migraphx_ORT__bert_base_cased_1 | PASS | 106.64881623796687 | |
+| migraphx_ORT__bert_base_uncased_1 | PASS | 33354.550081333095 | |
+| migraphx_ORT__bert_large_uncased_1 | PASS | 27357.038345666904 | |
+| migraphx_ORT__distilgpt2_1 | PASS | 249006.78394066865 | |
+| migraphx_ORT__onnx_models__bert_base_cased_1_fp16_gpu | Numerics | 62444.714930999304 | |
+| migraphx_ORT__onnx_models__bert_large_uncased_1_fp16_gpu | Numerics | 16196.720205666983 | |
+| migraphx_ORT__onnx_models__distilgpt2_1_fp16_gpu | Numerics | 36.713528666695574 | |
+| migraphx_agentmodel__AgentModel | Numerics | 2.1817247338437133 | |
+| migraphx_bert__bert-large-uncased | PASS | 18.985730891873974 | |
 | migraphx_bert__bertsquad-12 | compilation | None | |
-| migraphx_cadene__dpn92i1 | PASS | 5.076527329998346 | |
-| migraphx_cadene__inceptionv4i16 | PASS | 30.035051666663055 | |
-| migraphx_cadene__resnext101_64x4di1 | PASS | 6.426830564101658 | |
-| migraphx_cadene__resnext101_64x4di16 | PASS | 30.395087028981482 | |
-| migraphx_huggingface-transformers__bert_mrpc8 | PASS | 6.985308663366286 | |
-| migraphx_mlperf__bert_large_mlperf | Numerics | 27.483255217949438 | |
-| migraphx_mlperf__resnet50_v1 | PASS | 4.987354400001701 | |
-| migraphx_models__whisper-tiny-decoder | PASS | 43.55558552083257 | |
-| migraphx_models__whisper-tiny-encoder | Numerics | 46.287588688894886 | |
+| migraphx_cadene__dpn92i1 | PASS | 5.053332666648203 | |
+| migraphx_cadene__inceptionv4i16 | PASS | 29.509199097219607 | |
+| migraphx_cadene__resnext101_64x4di1 | PASS | 6.280455513261104 | |
+| migraphx_cadene__resnext101_64x4di16 | PASS | 29.842149478060055 | |
+| migraphx_huggingface-transformers__bert_mrpc8 | PASS | 7.135100722211823 | |
+| migraphx_mlperf__bert_large_mlperf | Numerics | 29.166146641075144 | |
+| migraphx_mlperf__resnet50_v1 | PASS | 5.243596663403878 | |
+| migraphx_models__whisper-tiny-decoder | PASS | 43.642408666528354 | |
+| migraphx_models__whisper-tiny-encoder | Numerics | 46.3966950515803 | |
 | migraphx_onnx-model-zoo__gpt2-10 | compilation | None | |
-| migraphx_pytorch-examples__wlang_gru | PASS | 19.268100972977162 | |
-| migraphx_pytorch-examples__wlang_lstm | PASS | 8.394777156623315 | |
+| migraphx_pytorch-examples__wlang_gru | PASS | 17.33713497026959 | |
+| migraphx_pytorch-examples__wlang_lstm | PASS | 8.002393458304544 | |
 | migraphx_sd__unet__model | import_model | None | |
 | migraphx_sdxl__unet__model | import_model | None | |
-| migraphx_torchvision__densenet121i32 | PASS | 18.150583543851887 | |
-| migraphx_torchvision__inceptioni1 | PASS | 5.057297023333831 | |
-| migraphx_torchvision__inceptioni32 | PASS | 28.10505920000196 | |
-| migraphx_torchvision__resnet50i1 | PASS | 3.7199997413512715 | |
-| migraphx_torchvision__resnet50i64 | PASS | 20.843573892164514 | |
-| migx_bench_bert-large-uncased_16_128 | PASS | 25.452483523793035 | |
-| migx_bench_bert-large-uncased_16_256 | PASS | 37.43711531579688 | |
-| migx_bench_bert-large-uncased_16_384 | PASS | 57.539488333355216 | |
-| migx_bench_bert-large-uncased_1_128 | PASS | 12.077858632178975 | |
-| migx_bench_bert-large-uncased_1_256 | PASS | 12.463245602341283 | |
-| migx_bench_bert-large-uncased_1_384 | PASS | 19.07402382882972 | |
-| migx_bench_bert-large-uncased_2_128 | PASS | 12.554153499999238 | |
-| migx_bench_bert-large-uncased_2_256 | PASS | 18.84084196396199 | |
-| migx_bench_bert-large-uncased_2_384 | PASS | 19.445197407403864 | |
-| migx_bench_bert-large-uncased_32_128 | PASS | 35.81886071665773 | |
-| migx_bench_bert-large-uncased_32_256 | PASS | 71.40116006667085 | |
-| migx_bench_bert-large-uncased_32_384 | PASS | 112.5933844999862 | |
-| migx_bench_bert-large-uncased_4_128 | PASS | 19.05603902778281 | |
-| migx_bench_bert-large-uncased_4_256 | PASS | 19.895560142863577 | |
-| migx_bench_bert-large-uncased_4_384 | PASS | 23.259772155549598 | |
-| migx_bench_bert-large-uncased_8_128 | PASS | 20.075002342851107 | |
-| migx_bench_bert-large-uncased_8_256 | PASS | 25.96617137036738 | |
-| migx_bench_bert-large-uncased_8_384 | PASS | 32.98087179363724 | |
+| migraphx_torchvision__densenet121i32 | PASS | 18.018277051221677 | |
+| migraphx_torchvision__inceptioni1 | PASS | 4.913480861535096 | |
+| migraphx_torchvision__inceptioni32 | PASS | 28.165665906514423 | |
+| migraphx_torchvision__resnet50i1 | PASS | 3.582756345266574 | |
+| migraphx_torchvision__resnet50i64 | PASS | 20.918582009774884 | |
+| migx_bench_bert-large-uncased_16_128 | PASS | 25.542694952383457 | |
+| migx_bench_bert-large-uncased_16_256 | PASS | 37.698275543733494 | |
+| migx_bench_bert-large-uncased_16_384 | PASS | 57.88631355562757 | |
+| migx_bench_bert-large-uncased_1_128 | PASS | 12.607390390738814 | |
+| migx_bench_bert-large-uncased_1_256 | PASS | 12.438529807047004 | |
+| migx_bench_bert-large-uncased_1_384 | PASS | 19.077031252399557 | |
+| migx_bench_bert-large-uncased_2_128 | PASS | 12.432122267866708 | |
+| migx_bench_bert-large-uncased_2_256 | PASS | 19.065008108120782 | |
+| migx_bench_bert-large-uncased_2_384 | PASS | 19.565268564898968 | |
+| migx_bench_bert-large-uncased_32_128 | PASS | 36.200051421155074 | |
+| migx_bench_bert-large-uncased_32_256 | PASS | 71.84716630017647 | |
+| migx_bench_bert-large-uncased_32_384 | PASS | 112.34662249979817 | |
+| migx_bench_bert-large-uncased_4_128 | PASS | 19.20587027027953 | |
+| migx_bench_bert-large-uncased_4_256 | PASS | 19.833695323783708 | |
+| migx_bench_bert-large-uncased_4_384 | PASS | 23.77305389992317 | |
+| migx_bench_bert-large-uncased_8_128 | PASS | 19.883376466722915 | |
+| migx_bench_bert-large-uncased_8_256 | PASS | 26.035424913533024 | |
+| migx_bench_bert-large-uncased_8_384 | PASS | 33.14632923817072 | |

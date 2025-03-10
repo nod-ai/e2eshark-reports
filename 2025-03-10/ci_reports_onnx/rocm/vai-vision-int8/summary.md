@@ -6,8 +6,8 @@
 | Setup | 78 | 100.0% | 100.0% |
 | IREE Compilation | 78 | 100.0% | 100.0% |
 | Gold Inference | 78 | 100.0% | 100.0% |
-| IREE Inference Invocation | 74 | 94.9% | 94.9% |
-| Inference Comparison (PASS) | 50 | 64.1% | 67.6% |
+| IREE Inference Invocation | 78 | 100.0% | 100.0% |
+| Inference Comparison (PASS) | 52 | 66.7% | 66.7% |
 ## Fail Summary
 
 **TOTAL TESTS = 78**
@@ -16,22 +16,22 @@
 | Setup | 0 | 0.0% |
 | IREE Compilation | 0 | 0.0% |
 | Gold Inference | 0 | 0.0% |
-| IREE Inference Invocation | 4 | 5.1% |
-| Inference Comparison | 24 | 30.8% |
+| IREE Inference Invocation | 0 | 0.0% |
+| Inference Comparison | 26 | 33.3% |
 ## Test Run Detail
 Test was run with the following arguments:
 Namespace(device='hip', backend='rocm', target_chip='gfx942', iree_compile_args=None, mode='cl-onnx-iree', torchtolinalg=False, stages=None, skip_stages=None, benchmark=False, load_inputs=False, groups='all', test_filter=None, testsfile='onnx_tests/models/external_lists/vai-vision-int8.txt', tolerance=None, verbose=True, rundirectory='./test-onnx', no_artifacts=False, cleanup='3', report=True, report_file='reports/vai-vision-int8.md', get_metadata=True)
 
 | Test | Exit Status | Mean Benchmark Time (ms) | Notes |
 |--|--|--|--|
-| DarkNet53_vaiq | compiled_inference | None | |
+| DarkNet53_vaiq | PASS | None | |
 | dla169_vaiq | Numerics | None | |
 | efficientnet_b0.ra_in1k_vaiq | Numerics | None | |
-| EfficientNet_b0_vaiq | compiled_inference | None | |
+| EfficientNet_b0_vaiq | Numerics | None | |
 | efficientnet_b1.ft_in1k_vaiq | PASS | None | |
-| EfficientNet_b1_vaiq | compiled_inference | None | |
+| EfficientNet_b1_vaiq | PASS | None | |
 | efficientnet_b2.ra_in1k_vaiq | Numerics | None | |
-| EfficientNet_b2_vaiq | compiled_inference | None | |
+| EfficientNet_b2_vaiq | Numerics | None | |
 | efficientnet_b3.ra2_in1k_vaiq | Numerics | None | |
 | EfficientNet_b3_vaiq | Numerics | None | |
 | efficientnet_b4.ra2_in1k_vaiq | Numerics | None | |
