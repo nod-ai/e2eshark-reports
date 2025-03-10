@@ -8,74 +8,51 @@ progression tolerance: 5.0%
 
 |model name|exit_status|analysis|old_time_ms|new_time_ms|change_ms|percent_change|
 |---|---|---|---|---|---|---|
-|migraphx_ORT__bert_base_cased_1|PASS|progression|103.2997|93.7953|-9.5044|-9.2%|
-|migraphx_ORT__bert_base_uncased_1|PASS|regression|88.5885|95.0403|6.4518|7.28%|
-|migraphx_ORT__bert_large_uncased_1|PASS|progression|437.8921|280.1274|-157.7648|-36.03%|
-|migraphx_ORT__distilgpt2_1|PASS|progression|36.273|29.8679|-6.4051|-17.66%|
-|migraphx_ORT__onnx_models__bert_base_cased_1_fp16_gpu|Numerics|within tol|85.515|85.5621|0.0471|0.06%|
-|migraphx_ORT__onnx_models__bert_large_uncased_1_fp16_gpu|Numerics|progression|262.8737|249.0118|-13.8619|-5.27%|
-|migraphx_ORT__onnx_models__distilgpt2_1_fp16_gpu|Numerics|within tol|41.4548|39.6749|-1.7799|-4.29%|
-|migraphx_agentmodel__AgentModel|Numerics|regression|1.1335|1.2085|0.075|6.61%|
-|migraphx_bert__bert-large-uncased|PASS|within tol|385.0846|385.6719|0.5872|0.15%|
-|migraphx_cadene__dpn92i1|PASS|within tol|168.6049|164.2473|-4.3576|-2.58%|
-|migraphx_cadene__inceptionv4i16|PASS|within tol|5512.2636|5523.6181|11.3545|0.21%|
-|migraphx_cadene__resnext101_64x4di1|PASS|within tol|319.1209|329.1116|9.9907|3.13%|
-|migraphx_cadene__resnext101_64x4di16|PASS|regression|5019.0306|5947.2453|928.2147|18.49%|
-|migraphx_huggingface-transformers__bert_mrpc8|PASS|within tol|408.8359|405.6228|-3.2132|-0.79%|
-|migraphx_mlperf__bert_large_mlperf|Numerics|within tol|424.3165|429.6432|5.3267|1.26%|
-|migraphx_mlperf__resnet50_v1|PASS|within tol|95.6426|96.3923|0.7497|0.78%|
-|migraphx_models__whisper-tiny-decoder|PASS|regression|30.9707|46.2907|15.3201|49.47%|
-|migraphx_models__whisper-tiny-encoder|Numerics|within tol|179.6917|185.1168|5.4251|3.02%|
-|migraphx_pytorch-examples__wlang_gru|PASS|progression|88.8424|73.8956|-14.9468|-16.82%|
-|migraphx_pytorch-examples__wlang_lstm|PASS|within tol|44.1178|46.0277|1.9099|4.33%|
-|migraphx_torchvision__densenet121i32|PASS|within tol|1493.5831|1555.2953|61.7121|4.13%|
-|migraphx_torchvision__inceptioni1|PASS|regression|200.0485|211.0803|11.0318|5.51%|
-|migraphx_torchvision__inceptioni32|PASS|within tol|5766.6281|5847.7441|81.1161|1.41%|
-|migraphx_torchvision__resnet50i1|PASS|within tol|90.8226|87.1547|-3.6679|-4.04%|
-|migraphx_torchvision__resnet50i64|PASS|within tol|5428.3199|5477.2962|48.9763|0.9%|
-|migx_bench_bert-large-uncased_16_128|PASS|progression|2650.3482|1624.5271|-1025.8211|-38.71%|
-|migx_bench_bert-large-uncased_16_256|PASS|progression|4087.5658|2983.4854|-1104.0805|-27.01%|
-|migx_bench_bert-large-uncased_16_384|Numerics|progression|5843.0735|4892.5365|-950.537|-16.27%|
-|migx_bench_bert-large-uncased_1_128|PASS|progression|168.0857|150.6327|-17.4531|-10.38%|
-|migx_bench_bert-large-uncased_1_256|PASS|progression|268.3661|250.6552|-17.7109|-6.6%|
-|migx_bench_bert-large-uncased_1_384|PASS|within tol|379.1812|374.8319|-4.3493|-1.15%|
-|migx_bench_bert-large-uncased_2_128|PASS|progression|382.5437|236.4836|-146.0601|-38.18%|
-|migx_bench_bert-large-uncased_2_256|PASS|progression|582.2661|448.3504|-133.9157|-23.0%|
-|migx_bench_bert-large-uncased_2_384|PASS|progression|820.371|655.5266|-164.8444|-20.09%|
-|migx_bench_bert-large-uncased_32_128|PASS|progression|5081.4056|2810.8615|-2270.5441|-44.68%|
-|migx_bench_bert-large-uncased_32_256|PASS|progression|8551.9135|5869.0566|-2682.8569|-31.37%|
-|migx_bench_bert-large-uncased_32_384|Numerics|progression|11253.5777|9429.077|-1824.5007|-16.21%|
-|migx_bench_bert-large-uncased_4_128|PASS|progression|744.6127|407.5545|-337.0582|-45.27%|
-|migx_bench_bert-large-uncased_4_256|PASS|progression|1101.108|797.5468|-303.5612|-27.57%|
-|migx_bench_bert-large-uncased_4_384|PASS|progression|1564.2564|1254.7033|-309.5531|-19.79%|
-|migx_bench_bert-large-uncased_8_128|PASS|progression|1305.01|734.8352|-570.1748|-43.69%|
-|migx_bench_bert-large-uncased_8_256|PASS|progression|2099.0933|1534.499|-564.5942|-26.9%|
-|migx_bench_bert-large-uncased_8_384|PASS|progression|3088.0083|2428.4467|-659.5616|-21.36%|
+|migraphx_ORT__bert_base_cased_1|PASS|within tol|93.7953|94.7269|0.9315|0.99%|
+|migraphx_ORT__bert_base_uncased_1|PASS|progression|95.0403|84.2209|-10.8195|-11.38%|
+|migraphx_ORT__bert_large_uncased_1|PASS|regression|280.1274|508.3621|228.2348|81.48%|
+|migraphx_ORT__distilgpt2_1|PASS|regression|29.8679|41.5201|11.6522|39.01%|
+|migraphx_ORT__onnx_models__bert_base_cased_1_fp16_gpu|Numerics|regression|85.5621|96.3803|10.8182|12.64%|
+|migraphx_ORT__onnx_models__bert_large_uncased_1_fp16_gpu|Numerics|regression|249.0118|573.0344|324.0226|130.12%|
+|migraphx_ORT__onnx_models__distilgpt2_1_fp16_gpu|Numerics|within tol|39.6749|39.6832|0.0083|0.02%|
+|migraphx_agentmodel__AgentModel|Numerics|progression|1.2085|1.12|-0.0885|-7.33%|
+|migraphx_bert__bert-large-uncased|PASS|within tol|385.6719|383.0133|-2.6586|-0.69%|
+|migraphx_cadene__dpn92i1|PASS|regression|164.2473|175.3971|11.1498|6.79%|
+|migraphx_cadene__inceptionv4i16|PASS|within tol|5523.6181|5576.1358|52.5177|0.95%|
+|migraphx_cadene__resnext101_64x4di1|PASS|within tol|329.1116|326.7288|-2.3828|-0.72%|
+|migraphx_cadene__resnext101_64x4di16|PASS|progression|5947.2453|5260.8316|-686.4137|-11.54%|
+|migraphx_huggingface-transformers__bert_mrpc8|PASS|within tol|405.6228|406.046|0.4232|0.1%|
+|migraphx_mlperf__bert_large_mlperf|Numerics|regression|429.6432|1781.1989|1351.5557|314.58%|
+|migraphx_mlperf__resnet50_v1|PASS|within tol|96.3923|99.2631|2.8708|2.98%|
+|migraphx_models__whisper-tiny-decoder|PASS|regression|46.2907|78.2236|31.9329|68.98%|
+|migraphx_models__whisper-tiny-encoder|Numerics|within tol|185.1168|181.2993|-3.8176|-2.06%|
+|migraphx_pytorch-examples__wlang_gru|PASS|regression|73.8956|83.3788|9.4832|12.83%|
+|migraphx_pytorch-examples__wlang_lstm|PASS|within tol|46.0277|45.4312|-0.5965|-1.3%|
+|migraphx_torchvision__densenet121i32|PASS|within tol|1555.2953|1603.2242|47.9289|3.08%|
+|migraphx_torchvision__inceptioni1|PASS|progression|211.0803|197.6425|-13.4378|-6.37%|
+|migraphx_torchvision__inceptioni32|PASS|within tol|5847.7441|5720.6154|-127.1287|-2.17%|
+|migraphx_torchvision__resnet50i1|PASS|within tol|87.1547|85.1865|-1.9682|-2.26%|
+|migraphx_torchvision__resnet50i64|PASS|within tol|5477.2962|5431.3844|-45.9118|-0.84%|
+|migx_bench_bert-large-uncased_16_128|PASS|progression|1624.5271|1443.8254|-180.7018|-11.12%|
+|migx_bench_bert-large-uncased_16_256|PASS|within tol|2983.4854|2949.8514|-33.634|-1.13%|
+|migx_bench_bert-large-uncased_16_384|Numerics|within tol|4892.5365|4781.8086|-110.7279|-2.26%|
+|migx_bench_bert-large-uncased_1_128|PASS|within tol|150.6327|150.2997|-0.333|-0.22%|
+|migx_bench_bert-large-uncased_1_256|PASS|regression|250.6552|264.1217|13.4665|5.37%|
+|migx_bench_bert-large-uncased_1_384|PASS|within tol|374.8319|378.903|4.0711|1.09%|
+|migx_bench_bert-large-uncased_2_128|PASS|within tol|236.4836|248.1355|11.6519|4.93%|
+|migx_bench_bert-large-uncased_2_256|PASS|within tol|448.3504|439.784|-8.5664|-1.91%|
+|migx_bench_bert-large-uncased_2_384|PASS|within tol|655.5266|662.9584|7.4318|1.13%|
+|migx_bench_bert-large-uncased_32_128|PASS|regression|2810.8615|3221.7447|410.8832|14.62%|
+|migx_bench_bert-large-uncased_32_256|PASS|within tol|5869.0566|5824.0415|-45.0151|-0.77%|
+|migx_bench_bert-large-uncased_32_384|Numerics|within tol|9429.077|9193.3977|-235.6792|-2.5%|
+|migx_bench_bert-large-uncased_4_128|PASS|within tol|407.5545|406.4168|-1.1376|-0.28%|
+|migx_bench_bert-large-uncased_4_256|PASS|regression|797.5468|848.5686|51.0218|6.4%|
+|migx_bench_bert-large-uncased_4_384|PASS|regression|1254.7033|1327.947|73.2437|5.84%|
+|migx_bench_bert-large-uncased_8_128|PASS|within tol|734.8352|747.2699|12.4346|1.69%|
+|migx_bench_bert-large-uncased_8_256|PASS|within tol|1534.499|1553.7891|19.2901|1.26%|
+|migx_bench_bert-large-uncased_8_384|PASS|within tol|2428.4467|2424.6058|-3.8409|-0.16%|
 
-## 3 Regressions Found:
+## No Regressions Found
 
-|model name|old_status|new_status|
-|---|---|---|
-|model--Bartlarge--Shubham09|PASS|Numerics|
-|resnet10t_train_vaiq|PASS|Numerics|
-|resnet14t_train_vaiq|PASS|Numerics|
-
-## 14 Progressions Found:
-
-|model name|old_status|new_status|
-|---|---|---|
-|model--deberta-italian-question-answering--osiria|Numerics|PASS|
-|model--deberta-v3-base-qa-en--LLukas22|Numerics|PASS|
-|model--deberta-v3-base-squad2--deepset|Numerics|PASS|
-|model--deberta-v3-base-squad2--navteca|Numerics|PASS|
-|model--deberta-v3-base__sst2__all-train--SetFit|Numerics|PASS|
-|model--deberta-v3-large-squad2--deepset|Numerics|PASS|
-|model--deberta-v3-large-squad2--sjrhuschlee|Numerics|PASS|
-|model--deberta-v3-xsmall-squad2--nlpconnect|Numerics|PASS|
-|model--deberta_squadnewsqa--sophiebottani|Numerics|PASS|
-|model--mdeberta-v3-base-squad2--sjrhuschlee|Numerics|PASS|
-|model--microsoft-deberta-v3-large_ner_conll2003--Gladiator|Numerics|PASS|
-|model--outputs--ankitkupadhyay|Numerics|PASS|
-|model--pegasus-large-booksum--cnicu|Numerics|PASS|
-|model--reward-model-deberta-v3-large-v2--OpenAssistant|Numerics|PASS|
+## No Progressions Found
 
